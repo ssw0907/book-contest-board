@@ -9,18 +9,21 @@ on:
 
 permissions:
   contents: write
+  pages: write
 
 jobs:
   crawl:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - run: pip install -r crawler/requirements.txt
       - run: python crawler/crawl.py
-      - name: 바뀐 내용이 있으면 커밋
+      - name: 바뀐 내용이 있으면 커밋하고 사이트 다시 배포
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           if git diff --quiet data/contests.json; then
             echo "변경 없음"
@@ -31,3 +34,5 @@ jobs:
           git add data/contests.json
           git commit -m "공모전 데이터 자동 갱신"
           git push
+          # 봇이 한 커밋은 사이트 배포가 자동으로 시작되지 않을 수 있어 직접 요청합니다.
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "재배포 요청 실패 (다음 커밋 때 반영됩니다)"
