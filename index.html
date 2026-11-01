@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>독후감 공모전 모아보기</title>
+  <meta name="description" content="전국 초·중·고 학생과 학부모를 위한 독후감 공모전 현황">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>독후감 공모전 모아보기</h1>
+      <p class="lead">지금 접수할 수 있는 독후감 공모전을 마감이 가까운 순서로 보여 드려요.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="filters" aria-label="필터">
+      <div class="filter-row">
+        <span class="filter-label" id="lbl-target">대상</span>
+        <div class="chips" role="group" aria-labelledby="lbl-target" id="filter-target"></div>
+      </div>
+
+      <div class="filter-row">
+        <label class="filter-label" for="filter-region">지역</label>
+        <select id="filter-region"></select>
+      </div>
+
+      <div class="filter-row">
+        <span class="filter-label" id="lbl-status">상태</span>
+        <div class="chips" role="group" aria-labelledby="lbl-status" id="filter-status"></div>
+      </div>
+
+      <div class="filter-row">
+        <label class="toggle">
+          <input type="checkbox" id="filter-closed">
+          <span>마감된 공모전 보기</span>
+        </label>
+      </div>
+    </section>
+
+    <div class="result-bar">
+      <p id="result-count" aria-live="polite"></p>
+      <button type="button" class="link-btn" id="reset-btn">필터 초기화</button>
+    </div>
+
+    <ul class="cards" id="cards"></ul>
+
+    <div class="empty" id="empty" hidden>
+      <p>조건에 맞는 공모전이 없어요.</p>
+      <button type="button" class="btn" id="empty-reset-btn">필터 초기화</button>
+    </div>
+
+    <div class="notice" id="notice" role="alert" hidden></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>공모전 정보는 바뀔 수 있으니 지원 전에 꼭 원문 공고를 확인하세요.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

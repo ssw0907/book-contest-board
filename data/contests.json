@@ -1,0 +1,115 @@
+{
+  "contests": [
+    {
+      "id": "ck-202610140072",
+      "title": "2026 광명시 올해의 책 독후감 공모전",
+      "organizer": "광명시도서관",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-14",
+      "endDate": "2026-11-22",
+      "bookRequirement": "지정도서",
+      "prize": "상장 및 광명사랑화폐 또는 온누리 상품권",
+      "url": "http://gmlib.gm.go.kr/front/index.php?g_page=open&m_page=open01&page=1&bb_code=10gu0530q3d0dfb&view=read&wd=85&bvLib=85",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-01"
+    },
+    {
+      "id": "ck-202609150037",
+      "title": "「함께 읽어요!! 2026 경남의 책」전국 독후감 공모전",
+      "organizer": "경남대표도서관",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-10",
+      "endDate": "2026-10-22",
+      "bookRequirement": "지정도서",
+      "prize": "상금+상품(총상금 : 360만원 / 1위 : 40만원 / 상장 )",
+      "url": "http://lib.gyeongnam.go.kr/board/view.lib?boardId=BBS_0000001&menuCd=DOM_000000204001000000&startPage=1&dataSid=8087",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-01"
+    },
+    {
+      "id": "ck-202609020019",
+      "title": "2026 한 권의 책 전국 독후감 공모전",
+      "organizer": "정읍시립도서관",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-08-24",
+      "endDate": "2026-10-30",
+      "bookRequirement": "지정도서",
+      "prize": "상금+상품(총상금 : 290만원 / 1위 : 50만원 / 상장 )",
+      "url": "http://lib.jeongeup.go.kr/board/board.do?PID=0501&action=Read&idx=11216&searchType=all&searchText=&page=1",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-01"
+    },
+    {
+      "id": "ck-202608210019",
+      "title": "제30회 영암군 독서왕 선발대회",
+      "organizer": "영암군",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전남",
+      "startDate": "2026-08-20",
+      "endDate": "2026-10-02",
+      "bookRequirement": "지정도서",
+      "prize": "없음",
+      "url": "http://www.honammaeil.com/news/view.php?idx=857218",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-01"
+    },
+    {
+      "id": "ck-202607070062",
+      "title": "2026년 충청북도지 독후감 공모전",
+      "organizer": "충청북도",
+      "target": [
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "충북",
+      "startDate": "2026-07-06",
+      "endDate": "2026-10-16",
+      "bookRequirement": "지정도서",
+      "prize": "상금+상품(총상금 : 310만원 / 1위 : 50만원 / 상장 )",
+      "url": "http://archive.chungbuk.re.kr/bbs/notice/view.do?nttId=B000000004523Ye3pH5x&mno=sub04_05",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-01"
+    },
+    {
+      "id": "wv-110042",
+      "title": "제2회 김형석 교수와 함께하는 독후감 경진대회",
+      "organizer": "양구군 / 강원도민일보",
+      "target": [
+        "초등",
+        "중등"
+      ],
+      "region": "강원",
+      "startDate": "2026-08-20",
+      "endDate": "2026-10-22",
+      "bookRequirement": "자유",
+      "prize": "1등 100만원 / 총 상금 1천만원이하",
+      "url": "http://www.kado.net/news/articleView.html?idxno=2065792",
+      "source": "위비티",
+      "updatedAt": "2026-11-01"
+    }
+  ]
+}

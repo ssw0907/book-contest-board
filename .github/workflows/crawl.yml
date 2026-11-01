@@ -1,0 +1,33 @@
+# GitHub에 올린 뒤, 매일 아침 자동으로 크롤러를 돌려 data/contests.json을 갱신합니다.
+# Actions 탭에서 "Run workflow" 버튼으로 바로 실행할 수도 있습니다.
+name: 공모전 자동 수집
+
+on:
+  schedule:
+    - cron: "0 21 * * *"   # 매일 06:00 (한국 시간)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r crawler/requirements.txt
+      - run: python crawler/crawl.py
+      - name: 바뀐 내용이 있으면 커밋
+        run: |
+          if git diff --quiet data/contests.json; then
+            echo "변경 없음"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/contests.json
+          git commit -m "공모전 데이터 자동 갱신"
+          git push
