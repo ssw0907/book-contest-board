@@ -1,18 +1,20 @@
 """
-독후감 공모전 크롤러
+독후감·문학작품 공모전 크롤러
 
-공모전 정보 사이트에서 '독후감' 공모전을 찾아 data/contests.json 에 자동으로 반영합니다.
+공모전 정보 사이트에서 '독후감' 공모전과 '문학작품'(시·수필·소설 등) 공모전을 찾아
+data/contests.json 에 자동으로 반영합니다.
 
 실행:  python crawler/crawl.py
 옵션:  --dry-run   파일은 고치지 않고 찾은 결과만 화면에 출력
 
 동작 규칙
 - 크롤러가 넣은 항목은 id가 'ck-'(공모전코리아) 또는 'wv-'(위비티)로 시작합니다.
+- 독후감 공모전은 "독후감" 검색으로, 문학작품 공모전은 사이트의 문학 분류 목록에서 찾습니다.
 - 사람이 직접 넣은 항목(그 밖의 id)은 절대 건드리지 않습니다.
 - 사람이 넣은 항목과 제목이 같은 공모전은 크롤링 결과에서 뺍니다(사람이 넣은 정보 우선).
 - 실제 공모전을 하나라도 찾으면 예시 데이터(source가 "예시 데이터")는 지웁니다.
 - 마감된 지 KEEP_CLOSED_DAYS일이 지난 크롤링 항목은 지웁니다.
-- 어떤 사이트가 접속에 실패하면, 그 사이트에서 예전에 가져온 항목은 그대로 둡니다.
+- 어떤 사이트가 접속에 실패하면, 그 사이트에서 그 종류로 예전에 가져온 항목은 그대로 둡니다.
 """
 
 import argparse
@@ -36,12 +38,36 @@ REQUEST_DELAY = 1.5      # 요청 사이 대기 시간(초) — 사이트에 부
 MAX_PAGES = 3            # 사이트별로 읽을 검색 결과 페이지 수
 KEEP_CLOSED_DAYS = 30    # 마감 후 며칠까지 남겨 둘지
 MAX_POST_AGE_DAYS = 400  # 이보다 오래전에 올라온 글은 읽지 않음
+LITERATURE_PAGES = 15    # 문학 분류 목록에서 읽을 페이지 수 (분류 목록은 검색 결과보다 깁니다)
 
 KST = timezone(timedelta(hours=9))
 TODAY = datetime.now(KST).date()
 
+BOOK_REPORT = "독후감"
+LITERATURE = "문학작품"
+
 # 제목에 이 단어 중 하나가 있어야 독후감 공모전으로 봅니다.
 TITLE_KEYWORDS = re.compile(r"독후감|독서\s*감상|독후\s*감상|서평|독서왕|독후\s*활동")
+
+# 사이트의 문학 분류에는 우수사례·수기·입주작가 모집처럼 문학작품 공모가 아닌 글도 섞여 있습니다.
+# 제목에 INCLUDE 단어가 있고 EXCLUDE 단어가 없어야 문학작품 공모전으로 봅니다.
+LITERATURE_INCLUDE = re.compile(
+    r"문학|문예|신춘|신인상|백일장|글짓기|글쓰기|수필|에세이|소설|동화|동시|시조|디카시|창작시|삼행시|"
+    r"희곡|극본|시나리오|스토리텔링|(?<![가-힣])시(?![가-힣])|(?<![가-힣])시\s*(공모|쓰기|짓기|부문)"
+)
+LITERATURE_EXCLUDE = re.compile(
+    r"우수사례|수기|입주|칼럼|논문|아이디어|포토\s*에세이|영상|웹툰|그림책|서비스|표지|기자상|문화상|학술|"
+    r"책쓰기|교정|출간|리뷰|그림그리기|배워보|수강|강좌|참여자\s*모집|AI\s*경진|사연"
+)
+
+# 장르 추정. 제목과 본문에서 찾고, 하나도 없으면 "원문 참고"로 둡니다.
+GENRE_PATTERNS = [
+    ("시", r"시조|동시(?!에)|디카시|창작시|삼행시|시화|운문|詩|(?<![가-힣0-9])시\s*(공모|쓰기|짓기|부문|[,·ㆍ/]|$)|[,·ㆍ/]\s*시(?![가-힣])"),
+    ("수필", r"수필|에세이"),
+    ("소설", r"소설"),
+    ("동화", r"동화"),
+    ("희곡·시나리오", r"희곡|극본|시나리오"),
+]
 
 TARGETS = ["초등", "중등", "고등", "일반"]
 
@@ -95,12 +121,33 @@ def norm_title(title):
     return re.sub(r"[^0-9A-Za-z가-힣]", "", t)
 
 
+def norm_organizer(organizer):
+    t = re.sub(r"주식회사|\(주\)|\(사\)|\(재\)|사단법인|재단법인", "", organizer or "")
+    return re.sub(r"[^0-9A-Za-z가-힣]", "", t)
+
+
+def same_organizer(a, b):
+    if not a or not b:
+        return False
+    return a in b or b in a or SequenceMatcher(None, a, b).ratio() >= 0.5
+
+
 def is_same_contest(a, b):
-    """(정리된 제목, 마감일) 두 개가 같은 공모전인지. 사이트마다 제목을 조금씩 다르게 적기 때문에 비슷하면 같다고 봅니다."""
+    """
+    (정리된 제목, 마감일, 정리된 주최) 두 개가 같은 공모전인지.
+    사이트마다 제목을 조금씩 다르게 적기 때문에 비슷하면 같다고 봅니다.
+    '○○일보 신춘문예'처럼 제목이 닮고 마감이 같은 별개의 공모전이 많아, 마감이 같아도 주최까지 비슷해야 합니다.
+    """
     ratio = SequenceMatcher(None, a[0], b[0]).ratio()
-    if a[1] and a[1] == b[1]:
+    if a[1] and a[1] == b[1] and same_organizer(a[2], b[2]):
         return ratio >= 0.5
     return ratio >= 0.9
+
+
+def is_literature(title):
+    if TITLE_KEYWORDS.search(title):  # 독후감 공모전은 독후감 검색에서 따로 모읍니다.
+        return False
+    return bool(LITERATURE_INCLUDE.search(title)) and not LITERATURE_EXCLUDE.search(title)
 
 
 def parse_period(text):
@@ -161,6 +208,35 @@ def guess_targets(target_text, body):
     return []
 
 
+def targets_named_in(text):
+    if re.search(r"누구나|제한\s*없|전\s*국민", text):
+        return list(TARGETS)
+    found = set()
+    if re.search(r"초등|어린이", text):
+        found.add("초등")
+    if re.search(r"중학|중등", text):
+        found.add("중등")
+    if re.search(r"고등|고교", text):
+        found.add("고등")
+    if "청소년" in text:
+        found.update(["중등", "고등"])
+    if re.search(r"일반|대학|성인", text):
+        found.add("일반")
+    return _ordered(found)
+
+
+def guess_literature_targets(target_text, body):
+    """
+    문학 공모전 본문의 '어린이·청소년'은 응모자가 아니라 작품의 독자를 뜻할 때가 많습니다('청소년 문학상'의 응모자는 작가).
+    그래서 사이트의 대상 칸 → 본문의 '응모 자격' 부분 순서로만 보고, 둘 다 없으면 일반으로 봅니다.
+    """
+    found = targets_named_in(target_text or "")
+    if found:
+        return found
+    m = re.search(r"(응모|참가|공모|지원)\s*(자격|대상).{0,80}", body or "")
+    return (targets_named_in(m.group(0)) if m else []) or ["일반"]
+
+
 def guess_region(title, organizer, body):
     """신청 가능한 지역을 추정합니다. '전국' 공모라고 적혀 있으면 전국."""
     if "전국" in title or re.search(r"전국\s*(의\s*)?(초등|중|고|청소년|학생|누구나|어린이|국민)", body or ""):
@@ -184,16 +260,26 @@ def guess_book(body):
     return "자유"
 
 
-def make_item(id_, title, organizer, targets, region, start, end, book, prize, url, source):
+def guess_genres(title, body):
+    text = f"{title} {body or ''}"
+    return [name for name, pattern in GENRE_PATTERNS if re.search(pattern, text)] or ["원문 참고"]
+
+
+def make_item(id_, title, organizer, targets, region, start, end, category, body, prize, url, source):
+    if category == LITERATURE:
+        kind = {"genres": guess_genres(title, body)}
+    else:
+        kind = {"bookRequirement": guess_book(body)}
     return {
         "id": id_,
+        "category": category,
         "title": title,
         "organizer": organizer or "정보 없음",
         "target": targets,
         "region": region,
         "startDate": start,
         "endDate": end,
-        "bookRequirement": book,
+        **kind,
         "prize": prize or "원문 참고",
         "url": url,
         "source": source,
@@ -243,7 +329,37 @@ def crawl_contestkorea():
     return items
 
 
-def contestkorea_detail(url, str_no, title):
+def crawl_contestkorea_literature():
+    base = "https://www.contestkorea.com/sub/"
+    items = []
+    seen = set()
+    for page in range(1, LITERATURE_PAGES + 1):
+        soup = get_soup(f"{base}list.php?int_gbn=1&Txt_bcode=030110001&page={page}")
+        rows = soup.select(".list_style_2 > ul > li")
+        if not rows:
+            break
+        for li in rows:
+            a = li.select_one(".title a")
+            title_el = li.select_one(".title .txt")
+            if not a or not title_el:
+                continue
+            title = clean(title_el.get_text())
+            m = re.search(r"str_no=(\d+)", a.get("href", ""))
+            if not m or m.group(1) in seen or not is_literature(title):
+                continue
+            str_no = m.group(1)
+            seen.add(str_no)
+            try:
+                item = contestkorea_detail(urljoin(base, a["href"]), str_no, title, LITERATURE)
+            except Exception as e:
+                print(f"  [공모전코리아] {title} 상세 읽기 실패: {e}")
+                continue
+            if item:
+                items.append(item)
+    return items
+
+
+def contestkorea_detail(url, str_no, title, category=BOOK_REPORT):
     soup = get_soup(url)
     fields = {}
     for tr in soup.select(".txt_area table tr"):
@@ -272,13 +388,16 @@ def contestkorea_detail(url, str_no, title):
         if link and link.get("val2", "").startswith("http"):
             official = link["val2"]
 
-    targets = guess_targets(target_text, body)
+    if category == LITERATURE:
+        targets = guess_literature_targets(target_text, body)
+    else:
+        targets = guess_targets(target_text, body)
     if not targets:
         print(f"  [공모전코리아] {title}: 대상을 알 수 없어 건너뜀")
         return None
     return make_item(
         f"ck-{str_no}", title, organizer, targets,
-        guess_region(title, organizer, body), start, end, guess_book(body), prize,
+        guess_region(title, organizer, body), start, end, category, body, prize,
         official or url, "공모전코리아",
     )
 
@@ -315,7 +434,42 @@ def crawl_wevity():
     return items
 
 
-def wevity_detail(url, ix, title):
+def crawl_wevity_literature():
+    base = "https://www.wevity.com/index.php"
+    items = []
+    seen = set()
+    for page in range(1, LITERATURE_PAGES + 1):
+        soup = get_soup(f"{base}?c=find&s=1&gub=1&cidx=23&gp={page}")
+        any_recent = False
+        for li in soup.select("ul.list li"):
+            a = li.select_one(".tit a")
+            m = re.search(r"ix=(\d+)", a.get("href", "")) if a else None
+            if not m:
+                continue
+            # 목록의 'D+95'는 마감 후 95일째라는 뜻 → 오래 지난 글은 상세를 읽지 않습니다.
+            day = li.select_one(".day")
+            passed = re.search(r"D\+(\d+)", day.get_text()) if day else None
+            if passed and int(passed.group(1)) > KEEP_CLOSED_DAYS:
+                continue
+            any_recent = True
+            ix = m.group(1)
+            title = clean(a.find(string=True, recursive=False) or a.get_text())
+            if ix in seen or not is_literature(title):
+                continue
+            seen.add(ix)
+            try:
+                item = wevity_detail(f"{base}?c=find&s=1&gbn=view&ix={ix}", ix, title, LITERATURE)
+            except Exception as e:
+                print(f"  [위비티] {title} 상세 읽기 실패: {e}")
+                continue
+            if item:
+                items.append(item)
+        if not any_recent:
+            break
+    return items
+
+
+def wevity_detail(url, ix, title, category=BOOK_REPORT):
     soup = get_soup(url)
     fields = {}
     for li in soup.select("ul.cd-info-list > li"):
@@ -350,13 +504,16 @@ def wevity_detail(url, ix, title):
             official = link["href"]
 
     # 위비티의 '응모대상'은 '어린이'처럼 뭉뚱그려 적힌 경우가 많아 본문도 함께 봅니다.
-    targets = guess_targets(text_of("응모대상"), body[:600])
+    if category == LITERATURE:
+        targets = guess_literature_targets(text_of("응모대상"), body)
+    else:
+        targets = guess_targets(text_of("응모대상"), body[:600])
     if not targets:
         print(f"  [위비티] {title}: 대상을 알 수 없어 건너뜀")
         return None
     return make_item(
         f"wv-{ix}", title, organizer, targets,
-        guess_region(title, organizer, body[:600]), start, end, guess_book(body), prize,
+        guess_region(title, organizer, body[:600]), start, end, category, body, prize,
         official or url, "위비티",
     )
 
@@ -364,17 +521,30 @@ def wevity_detail(url, ix, title):
 # ---------------------------------------------------------------- 합치기
 
 SOURCES = [
-    ("ck-", "공모전코리아", crawl_contestkorea),
-    ("wv-", "위비티", crawl_wevity),
+    ("ck-", "공모전코리아", BOOK_REPORT, crawl_contestkorea),
+    ("wv-", "위비티", BOOK_REPORT, crawl_wevity),
+    ("ck-", "공모전코리아", LITERATURE, crawl_contestkorea_literature),
+    ("wv-", "위비티", LITERATURE, crawl_wevity_literature),
 ]
 
 
 def is_crawled(item):
-    return any(item.get("id", "").startswith(prefix) for prefix, _, _ in SOURCES)
+    return any(item.get("id", "").startswith(prefix) for prefix, *_ in SOURCES)
+
+
+def category_of(item):
+    # category가 없는 예전 항목은 모두 독후감 공모전입니다.
+    return item.get("category", BOOK_REPORT)
+
+
+def describe(item):
+    if category_of(item) == LITERATURE:
+        return "·".join(item["genres"])
+    return item["bookRequirement"]
 
 
 def main():
-    parser = argparse.ArgumentParser(description="독후감 공모전 크롤러")
+    parser = argparse.ArgumentParser(description="독후감·문학작품 공모전 크롤러")
     parser.add_argument("--dry-run", action="store_true", help="파일을 고치지 않고 결과만 출력")
     args = parser.parse_args()
 
@@ -384,27 +554,27 @@ def main():
     old_crawled = [c for c in existing if is_crawled(c)]
 
     crawled = []
-    failed_prefixes = []
-    for prefix, name, func in SOURCES:
-        print(f"[{name}] 읽는 중…")
+    failed_count = 0
+    for prefix, name, category, func in SOURCES:
+        print(f"[{name}] {category} 읽는 중…")
         try:
             got = func()
-            print(f"[{name}] 독후감 공모전 {len(got)}건")
+            print(f"[{name}] {category} 공모전 {len(got)}건")
             crawled.extend(got)
         except Exception as e:
-            print(f"[{name}] 실패 — 예전 항목을 유지합니다: {e}")
-            failed_prefixes.append(prefix)
-            crawled.extend(c for c in old_crawled if c["id"].startswith(prefix))
+            print(f"[{name}] {category} 실패 — 예전 항목을 유지합니다: {e}")
+            failed_count += 1
+            crawled.extend(c for c in old_crawled if c["id"].startswith(prefix) and category_of(c) == category)
 
     # 실제 데이터가 생기면 예시 데이터는 뺌
     if crawled:
         manual = [c for c in manual if c.get("source") != "예시 데이터"]
 
     # 중복 제거: 사람이 넣은 항목 > 공모전코리아 > 위비티 순서로 우선
-    taken = [(norm_title(c["title"]), c.get("endDate")) for c in manual]
+    taken = [(norm_title(c["title"]), c.get("endDate"), norm_organizer(c.get("organizer"))) for c in manual]
     merged = []
     for c in crawled:
-        key = (norm_title(c["title"]), c["endDate"])
+        key = (norm_title(c["title"]), c["endDate"], norm_organizer(c["organizer"]))
         if any(is_same_contest(key, t) for t in taken):
             continue
         taken.append(key)
@@ -425,7 +595,7 @@ def main():
     result = manual + merged
     print(f"\n결과: 직접 입력 {len(manual)}건 + 크롤링 {len(merged)}건 = {len(result)}건")
     for c in merged:
-        print(f"  {c['endDate']} 마감 | {c['region']:>2} | {','.join(c['target'])} | {c['bookRequirement']} | {c['title']}")
+        print(f"  {c['endDate']} 마감 | {category_of(c)} | {c['region']:>2} | {','.join(c['target'])} | {describe(c)} | {c['title']}")
 
     if args.dry_run:
         print("\n(--dry-run: 파일은 고치지 않았습니다)")
@@ -434,7 +604,7 @@ def main():
     data["contests"] = result
     DATA_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"\n{DATA_FILE.relative_to(ROOT)} 저장 완료")
-    return 1 if len(failed_prefixes) == len(SOURCES) else 0
+    return 1 if failed_count == len(SOURCES) else 0
 
 
 if __name__ == "__main__":

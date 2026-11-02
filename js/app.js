@@ -1,21 +1,24 @@
 /*
- * 독후감 공모전 모아보기
+ * 독후감·문학 공모전 모아보기
  * 순서: 데이터 읽기 → 검증 → 상태 계산 → 필터 → 정렬 → 화면 그리기
  * 공모전을 추가하거나 고칠 때는 이 파일이 아니라 data/contests.json 을 수정하세요.
  */
 (function () {
   'use strict';
 
+  var CATEGORIES = ['독후감', '문학작품'];
+  var DEFAULT_CATEGORY = '독후감'; // category를 적지 않은 항목은 독후감 공모전으로 봄
   var TARGETS = ['초등', '중등', '고등', '일반'];
   var REGIONS = ['전국', '서울', '부산', '대구', '인천', '광주', '대전', '울산', '세종',
     '경기', '강원', '충북', '충남', '전북', '전남', '경북', '경남', '제주'];
   var BOOK_REQUIREMENTS = ['지정도서', '자유'];
   var STATUSES = ['접수중', '예정']; // '마감'은 토글로 따로 다룸
   var REQUIRED = ['id', 'title', 'organizer', 'target', 'region', 'startDate', 'endDate',
-    'bookRequirement', 'prize', 'url', 'source', 'updatedAt'];
+    'prize', 'url', 'source', 'updatedAt'];
   var URGENT_DAYS = 7;
 
   var state = {
+    category: '',         // 빈 값이면 전체
     targets: [],          // 비어 있으면 전체
     region: '',           // 빈 값이면 전체
     statuses: STATUSES.slice(),
@@ -24,6 +27,7 @@
   var contests = [];
 
   var el = {
+    category: document.getElementById('category-tabs'),
     target: document.getElementById('filter-target'),
     region: document.getElementById('filter-region'),
     status: document.getElementById('filter-status'),
@@ -85,7 +89,14 @@
       });
     }
     if (REGIONS.indexOf(item.region) === -1) errors.push('region 값 "' + item.region + '"은(는) 허용되지 않습니다');
-    if (BOOK_REQUIREMENTS.indexOf(item.bookRequirement) === -1) errors.push('bookRequirement는 "지정도서" 또는 "자유"여야 합니다');
+    var category = item.category || DEFAULT_CATEGORY;
+    if (CATEGORIES.indexOf(category) === -1) {
+      errors.push('category는 ' + CATEGORIES.join(' 또는 ') + '여야 합니다');
+    } else if (category === '문학작품') {
+      if (!Array.isArray(item.genres) || item.genres.length === 0) errors.push('genres는 ["시", "수필"]처럼 배열이어야 합니다');
+    } else if (BOOK_REQUIREMENTS.indexOf(item.bookRequirement) === -1) {
+      errors.push('bookRequirement는 "지정도서" 또는 "자유"여야 합니다');
+    }
     ['startDate', 'endDate', 'updatedAt'].forEach(function (key) {
       if (!isValidDate(item[key])) errors.push(key + ' "' + item[key] + '"이(가) YYYY-MM-DD 형식이 아닙니다');
     });
@@ -103,6 +114,7 @@
     var start = toDayNumber(item.startDate);
     var end = toDayNumber(item.endDate);
     var c = Object.assign({}, item);
+    c.category = item.category || DEFAULT_CATEGORY;
     if (t < start) {
       c.status = '예정';
       c.dday = '' + (start - t) + '일 후 시작';
@@ -135,6 +147,10 @@
   /* ---------- 필터 ---------- */
 
   function matches(c) {
+    return matchesFilters(c) && (!state.category || c.category === state.category);
+  }
+
+  function matchesFilters(c) {
     if (c.status === '마감') {
       if (!state.showClosed) return false;
     } else if (state.statuses.indexOf(c.status) === -1) {
@@ -156,6 +172,7 @@
 
   function readQuery() {
     var q = new URLSearchParams(location.search);
+    if (CATEGORIES.indexOf(q.get('category')) !== -1) state.category = q.get('category');
     if (q.get('target')) {
       state.targets = q.get('target').split(',').filter(function (t) { return TARGETS.indexOf(t) !== -1; });
     }
@@ -168,6 +185,7 @@
 
   function writeQuery() {
     var q = new URLSearchParams();
+    if (state.category) q.set('category', state.category);
     if (state.targets.length) q.set('target', state.targets.join(','));
     if (state.region) q.set('region', state.region);
     if (state.statuses.length !== STATUSES.length) q.set('status', state.statuses.join(','));
@@ -198,7 +216,22 @@
     if (i === -1) list.push(value); else list.splice(i, 1);
   }
 
+  function renderCategoryTabs() {
+    var visible = contests.filter(matchesFilters);
+    el.category.textContent = '';
+    [''].concat(CATEGORIES).forEach(function (category) {
+      var count = visible.filter(function (c) { return !category || c.category === category; }).length;
+      var tab = make('button', 'tab', (category || '전체') + ' ' + count);
+      tab.type = 'button';
+      tab.setAttribute('aria-pressed', String(state.category === category));
+      tab.addEventListener('click', function () { state.category = category; update(); });
+      el.category.appendChild(tab);
+    });
+  }
+
   function renderFilters() {
+    renderCategoryTabs();
+
     el.target.textContent = '';
     el.target.appendChild(chip('전체', state.targets.length === 0, function () {
       state.targets = []; update();
@@ -225,7 +258,7 @@
 
     var top = make('div', 'card-top');
     top.appendChild(make('span', 'badge ' + c.badge, c.dday));
-    top.appendChild(make('span', 'region', c.region));
+    top.appendChild(make('span', 'region', c.category + ' · ' + c.region));
     li.appendChild(top);
 
     li.appendChild(make('h2', '', c.title));
@@ -238,7 +271,7 @@
 
     var info = make('dl', 'info');
     [['접수', formatDate(c.startDate) + ' ~ ' + formatDate(c.endDate)],
-     ['도서', c.bookRequirement],
+     c.category === '문학작품' ? ['장르', c.genres.join(', ')] : ['도서', c.bookRequirement],
      ['시상', c.prize]].forEach(function (row) {
       info.appendChild(make('dt', '', row[0]));
       info.appendChild(make('dd', '', row[1]));

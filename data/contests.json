@@ -2,6 +2,7 @@
   "contests": [
     {
       "id": "ck-202610140072",
+      "category": "독후감",
       "title": "2026 광명시 올해의 책 독후감 공모전",
       "organizer": "광명시도서관",
       "target": [
@@ -17,10 +18,11 @@
       "prize": "상장 및 광명사랑화폐 또는 온누리 상품권",
       "url": "http://gmlib.gm.go.kr/front/index.php?g_page=open&m_page=open01&page=1&bb_code=10gu0530q3d0dfb&view=read&wd=85&bvLib=85",
       "source": "공모전코리아",
-      "updatedAt": "2026-11-01"
+      "updatedAt": "2026-11-02"
     },
     {
       "id": "ck-202609150037",
+      "category": "독후감",
       "title": "「함께 읽어요!! 2026 경남의 책」전국 독후감 공모전",
       "organizer": "경남대표도서관",
       "target": [
@@ -36,10 +38,11 @@
       "prize": "상금+상품(총상금 : 360만원 / 1위 : 40만원 / 상장 )",
       "url": "http://lib.gyeongnam.go.kr/board/view.lib?boardId=BBS_0000001&menuCd=DOM_000000204001000000&startPage=1&dataSid=8087",
       "source": "공모전코리아",
-      "updatedAt": "2026-11-01"
+      "updatedAt": "2026-11-02"
     },
     {
       "id": "ck-202609020019",
+      "category": "독후감",
       "title": "2026 한 권의 책 전국 독후감 공모전",
       "organizer": "정읍시립도서관",
       "target": [
@@ -55,10 +58,11 @@
       "prize": "상금+상품(총상금 : 290만원 / 1위 : 50만원 / 상장 )",
       "url": "http://lib.jeongeup.go.kr/board/board.do?PID=0501&action=Read&idx=11216&searchType=all&searchText=&page=1",
       "source": "공모전코리아",
-      "updatedAt": "2026-11-01"
+      "updatedAt": "2026-11-02"
     },
     {
       "id": "ck-202607070062",
+      "category": "독후감",
       "title": "2026년 충청북도지 독후감 공모전",
       "organizer": "충청북도",
       "target": [
@@ -73,10 +77,11 @@
       "prize": "상금+상품(총상금 : 310만원 / 1위 : 50만원 / 상장 )",
       "url": "http://archive.chungbuk.re.kr/bbs/notice/view.do?nttId=B000000004523Ye3pH5x&mno=sub04_05",
       "source": "공모전코리아",
-      "updatedAt": "2026-11-01"
+      "updatedAt": "2026-11-02"
     },
     {
       "id": "wv-110042",
+      "category": "독후감",
       "title": "제2회 김형석 교수와 함께하는 독후감 경진대회",
       "organizer": "양구군 / 강원도민일보",
       "target": [
@@ -90,7 +95,2161 @@
       "prize": "1등 100만원 / 총 상금 1천만원이하",
       "url": "http://www.kado.net/news/articleView.html?idxno=2065792",
       "source": "위비티",
-      "updatedAt": "2026-11-01"
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202602240031",
+      "category": "문학작품",
+      "title": "2027년 상상인 신춘문예 공모",
+      "organizer": "상상인",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-12-01",
+      "endDate": "2027-01-05",
+      "genres": [
+        "시",
+        "수필"
+      ],
+      "prize": "상금+상품(총상금 : 400만원 / 1위 : 200만원 / 각 부문 200만원)",
+      "url": "http://blog.naver.com/sangsangin123",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610290029",
+      "category": "문학작품",
+      "title": "문학광장 제122기 신인문학상 공모",
+      "organizer": "문학광장",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-25",
+      "genres": [
+        "시",
+        "수필",
+        "소설",
+        "동화"
+      ],
+      "prize": "시인작가 등단후 문단활동/ 상패 / 등단인증서 /등단책자 지급",
+      "url": "http://cafe.daum.net/poem22",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610220014",
+      "category": "문학작품",
+      "title": "「초량천~산복도로」 스토리텔링 공모전",
+      "organizer": "부산광역시",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "부산",
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-06",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "상금+상품(총상금 : 500만원 / 1위 : 300만원 / 상장 )",
+      "url": "http://modu.go.kr/front/epilogue/epilogueNewViewPage.do?menu_id=527&bbs_id=b92b6f1180424f70a1cd4f4b382a8209&pagetype=bbs&search_result=&search_result_cnddt=&epilogue_bgnde=&epilogue_endde=&date_range=all&epilogue_bgnde_cnddt=&epilogue_endde_cnddt=&date_r",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610270037",
+      "category": "문학작품",
+      "title": "제39회 무등일보 신춘문예",
+      "organizer": "주식회사 에스알비무등일보",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-27",
+      "endDate": "2026-12-07",
+      "genres": [
+        "시",
+        "소설",
+        "동화"
+      ],
+      "prize": "상금(총상금 : 600만원 / 1위 : 300만원)",
+      "url": "http://www.mdilbo.com/detail/L3KfzM/759587",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610190010",
+      "category": "문학작품",
+      "title": "실상문학 신인문학상 작품 모집",
+      "organizer": "(사)부산불교문인협회",
+      "target": [
+        "일반"
+      ],
+      "region": "부산",
+      "startDate": "2026-10-14",
+      "endDate": "2026-12-31",
+      "genres": [
+        "시",
+        "수필",
+        "소설",
+        "동화"
+      ],
+      "prize": "상장과 시상금(30만원)",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202610190010",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610220008",
+      "category": "문학작품",
+      "title": "제26회 국립순천대학교 청소년 문예백일장 개최",
+      "organizer": "국립순천대학교 문예창작학전공",
+      "target": [
+        "고등"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-19",
+      "endDate": "2026-11-04",
+      "genres": [
+        "시"
+      ],
+      "prize": "상금+상품(총상금 : 150만원 / 1위 : 50만원 / 상장 및 상품 )",
+      "url": "http://www.scnu.ac.kr/munchang/na/ntt/selectNttInfo.do?nttSn=281322097&mi=9526&currPage=1",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610140073",
+      "category": "문학작품",
+      "title": "『거제스토리텔링북 14집』 원고 공모",
+      "organizer": "거제스토리텔링협회",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "경남",
+      "startDate": "2026-10-14",
+      "endDate": "2026-10-31",
+      "genres": [
+        "수필",
+        "소설"
+      ],
+      "prize": "없음",
+      "url": "http://www.ntn.news/news_gisa/gisa_view.htm?gisa_category=08030000&gisa_idx=414295&date_y=2026&date_m=10",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610200060",
+      "category": "문학작품",
+      "title": "『우리글』 2026년 하반기호 우리글문학상 및 신인문학상 작품 공모",
+      "organizer": "우리글작가회",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-20",
+      "endDate": "2026-11-25",
+      "genres": [
+        "시",
+        "수필",
+        "소설"
+      ],
+      "prize": "상장과 소정의 원고료 또는 등단패",
+      "url": "http://cafe.daum.net/uri-1",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610130037",
+      "category": "문학작품",
+      "title": "문익환 목사 창작희곡 공모전",
+      "organizer": "문익환 공연작품 기획모임",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2027-12-01",
+      "endDate": "2027-12-31",
+      "genres": [
+        "희곡·시나리오"
+      ],
+      "prize": "상금(총상금 : 10,000만원 / 1위 : 0만원)",
+      "url": "http://www.facebook.com/permalink.php?story_fbid=pfbid024QymSZwz2VYYwzUYLFoEUJBgCJqhGxuq2gZE1S99xsjWXtD3keC4og5vHqBmDZ9el&id=61594098146769",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610190058",
+      "category": "문학작품",
+      "title": "제1회 우리학교 청소년 문학상 공모",
+      "organizer": "우리학교 출판사",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-16",
+      "endDate": "2027-09-30",
+      "genres": [
+        "소설"
+      ],
+      "prize": "상패 및 상금(선인세) 2,000만 원",
+      "url": "http://blog.naver.com/woorischool/224442532510",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610190045",
+      "category": "문학작품",
+      "title": "제1회 웨이노벨 웹소설 공모전 FIRST STORY CHALLENGE 2026",
+      "organizer": "웨이노벨",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-19",
+      "endDate": "2026-12-13",
+      "genres": [
+        "시",
+        "소설"
+      ],
+      "prize": "상금(총상금 : 250만원 / 1위 : 100만원)",
+      "url": "http://weinovel.com/contest?about=1&utm_source=contestkorea&utm_medium=referral&utm_campaign=2026.10_contest_signup&utm_content=listing",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610070021",
+      "category": "문학작품",
+      "title": "서울 SEOUL 디카시 공모대전",
+      "organizer": "한국디카시인협회 서울 북부지회",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "서울",
+      "startDate": "2026-10-10",
+      "endDate": "2026-11-10",
+      "genres": [
+        "시"
+      ],
+      "prize": "상금+상품(총상금 : 1,000만원 / 1위 : 500만원 / 상장 )",
+      "url": "http://cafe.daum.net/.dicapoemjournal",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610130068",
+      "category": "문학작품",
+      "title": "2026 나라사랑 글짓기 대회",
+      "organizer": "안동시, (사)호국영웅이일영기념사업회/(사)호국영웅이일영기념사업회",
+      "target": [
+        "초등",
+        "중등",
+        "고등"
+      ],
+      "region": "경북",
+      "startDate": "2026-10-07",
+      "endDate": "2026-10-21",
+      "genres": [
+        "시"
+      ],
+      "prize": "상금(총상금 : 122만원 / 1위 : 30만원)",
+      "url": "http://blog.naver.com/dodamds",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610060019",
+      "category": "문학작품",
+      "title": "제24회 포항대학교 74주년 기념 평보백일장",
+      "organizer": "한국문인협회 포항지부",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "경북",
+      "startDate": "2026-09-21",
+      "endDate": "2026-10-24",
+      "genres": [
+        "시"
+      ],
+      "prize": "상금+상품(총상금 : 464만원 / 1위 : 100만원 / 상장 )",
+      "url": "http://cafe.daum.net/pohangliterature/F0PG/193",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610120035",
+      "category": "문학작품",
+      "title": "제2회 블루카이트 창작 글쓰기 대회",
+      "organizer": "블루카이트 출판사",
+      "target": [
+        "중등",
+        "고등"
+      ],
+      "region": "전국",
+      "startDate": "2026-08-15",
+      "endDate": "2027-02-15",
+      "genres": [
+        "수필",
+        "소설"
+      ],
+      "prize": "최종 Finalists 작품 모아서 Anthology(모음집)으로 서점 출간 예정",
+      "url": "http://www.bluekitepublishing.com/ko/writing-contest",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610010021",
+      "category": "문학작품",
+      "title": "광주대학교 제5회 전국 고교생 웹소설 공모전",
+      "organizer": "광주대학교 문예창작과",
+      "target": [
+        "고등"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-19",
+      "endDate": "2026-12-04",
+      "genres": [
+        "소설"
+      ],
+      "prize": "상장, 상품 및 장학금",
+      "url": "http://www.gwangju.ac.kr/bbs/?b_id=gwangju_promotion_news&site=gwangju&mn=376&type=view&bs_idx=6410",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610080009",
+      "category": "문학작품",
+      "title": "제28회 문학축제-'한양의시선'(구 시 이어짓기대회)",
+      "organizer": "한양대학교 ERICA/ERICA학술정보관",
+      "target": [
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-12",
+      "endDate": "2026-11-15",
+      "genres": [
+        "시"
+      ],
+      "prize": "상금(총상금 : 860만원 / 1위 : 200만원)",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202610080009",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610080008",
+      "category": "문학작품",
+      "title": "2027 경상일보 신춘문예",
+      "organizer": "경상일보",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-08",
+      "endDate": "2026-12-02",
+      "genres": [
+        "시",
+        "소설",
+        "동화",
+        "희곡·시나리오"
+      ],
+      "prize": "상금(총상금 : 1,800만원 / 1위 : 500만원)",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202610080008",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610070052",
+      "category": "문학작품",
+      "title": "2026 광주콘텐츠코리아랩 웹소설 원천 스토리 공모전",
+      "organizer": "광주정보문화산업진흥원",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-19",
+      "genres": [
+        "소설"
+      ],
+      "prize": "상금(총상금 : 1,100만원 / 1위 : 400만원)",
+      "url": "http://www.gicon.or.kr/board.es?mid=a10204000000&bid=0003&act=view&list_no=32260",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610070002",
+      "category": "문학작품",
+      "title": "2027 제3회 소원문학상",
+      "organizer": "(주)소원나무",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-01",
+      "endDate": "2027-01-31",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "상금(총상금 : 1,000만원 / 1위 : 1,000만원)",
+      "url": "http://www.sowonnamu.co.kr/posts/13?parentId=55&menuId=56",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610060010",
+      "category": "문학작품",
+      "title": "제30회 우암전국백일장",
+      "organizer": "대전동구문화원/대전동",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-23",
+      "genres": [
+        "시"
+      ],
+      "prize": "소정의 상품권+상장 (교육감상, 동부, 서부 교육장상, 동구청장, 동구의장, 문화원장)",
+      "url": "http://dgcc.or.kr/%ec%b0%b8%ec%97%ac-%ec%8b%a0%ec%b2%ad/%ec%9a%b0%ec%95%94%eb%b0%b1%ec%9d%bc%ec%9e%a5/%ea%b0%9c%ec%b5%9c%ec%9a%94%ea%b0%95/?mod=document&uid=1477",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610020070",
+      "category": "문학작품",
+      "title": "2026년 제2회 강남구 세계청소년백일장",
+      "organizer": "강남구/강남일원독서실",
+      "target": [
+        "초등",
+        "중등",
+        "고등"
+      ],
+      "region": "서울",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-23",
+      "genres": [
+        "수필"
+      ],
+      "prize": "없음",
+      "url": "http://www.gangnam.go.kr/office/iwyouth/board/IWYOUTH00002/1620/view.do?mid=IWYOUTH030102",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609280061",
+      "category": "문학작품",
+      "title": "2026년 제3회 쌍령고개과거길 디카시 과거시험",
+      "organizer": "쌍령고개과거길재현행사추진위원회",
+      "target": [
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-25",
+      "genres": [
+        "시"
+      ],
+      "prize": "상금(총상금 : 115만원 / 1위 : 30만원)",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609280061",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202610010002",
+      "category": "문학작품",
+      "title": "계간 이um 신인상",
+      "organizer": "계간 이um/도서출판 이um",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2027-01-01",
+      "endDate": "2027-03-31",
+      "genres": [
+        "시",
+        "수필"
+      ],
+      "prize": "상금(총상금 : 200만원 / 1위 : 100만원)",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202610010002",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609280046",
+      "category": "문학작품",
+      "title": "제65회 대현율곡이선생제 전국백일장",
+      "organizer": "(사)대현율곡이선생제전위원회/(사)한국문인협회 강릉지부",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-23",
+      "genres": [
+        "시"
+      ],
+      "prize": "상금(총상금 : 500만원 / 1위 : 50만원)",
+      "url": "http://cafe.daum.net/mun-in/Nj3Q/71",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609190004",
+      "category": "문학작품",
+      "title": "2026년 제32회 제주신인문학상 공모",
+      "organizer": "제주도문인협회",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "제주",
+      "startDate": "2026-09-01",
+      "endDate": "2026-10-31",
+      "genres": [
+        "시",
+        "수필",
+        "소설",
+        "동화",
+        "희곡·시나리오"
+      ],
+      "prize": "상금(총상금 : 100만원 / 1위 : 100만원)",
+      "url": "http://www.jejumunin.com/",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609190001",
+      "category": "문학작품",
+      "title": "제3회 피천득 전국 중·고·대학, 일반부 백일장",
+      "organizer": "금아피천득선생기념사업회",
+      "target": [
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-20",
+      "endDate": "2026-10-19",
+      "genres": [
+        "수필"
+      ],
+      "prize": "상장과 상패, 부상 등 기념품",
+      "url": "http://cafe.daum.net/kum-A/t889/4",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609240001",
+      "category": "문학작품",
+      "title": "2027년 시산맥 신춘문예 공모",
+      "organizer": "시산맥사/계간 시산맥",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2027-01-01",
+      "endDate": "2027-01-20",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "상금(총상금 : 300만원 / 1위 : 300만원)",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609240001",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609160035",
+      "category": "문학작품",
+      "title": "흥해디카시 공모전",
+      "organizer": "포항디카시협회",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "경북",
+      "startDate": "2026-09-20",
+      "endDate": "2026-10-20",
+      "genres": [
+        "시"
+      ],
+      "prize": "상금+상품(총상금 : 100만원 / 1위 : 50만원 / 상장 )",
+      "url": "http://www.dkilbo.com/news/articleView.html?idxno=554523",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609160013",
+      "category": "문학작품",
+      "title": "제7회 문화 간 단편소설 공모전",
+      "organizer": "에스페란토 문학 아카데미",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-16",
+      "endDate": "2027-06-30",
+      "genres": [
+        "소설"
+      ],
+      "prize": "상금(유로)",
+      "url": "http://bobelarto.ink/ko/konkurso/",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609210001",
+      "category": "문학작품",
+      "title": "제4회 국제청소년동화쓰기대회",
+      "organizer": "사단법인 희망도서관",
+      "target": [
+        "초등",
+        "중등",
+        "고등"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-21",
+      "endDate": "2027-01-08",
+      "genres": [
+        "동화"
+      ],
+      "prize": "상금(총상금 : 60만원 / 1위 : 30만원)",
+      "url": "http://www.hopeslibrary.org/p/youth-story-contest-4-apply",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609170001",
+      "category": "문학작품",
+      "title": "제1회 송강문학 전국 시(詩) 공모전",
+      "organizer": "진천군/(주)온컴퍼니",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-14",
+      "endDate": "2026-10-14",
+      "genres": [
+        "시"
+      ],
+      "prize": "상금(총상금 : 550만원 / 1위 : 200만원)",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609170001",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609160008",
+      "category": "문학작품",
+      "title": "「식물에 시(詩)를 심자, 마음속 꽃이 피어나다」 2026 제2회 반려식물 시화작품 경진대회",
+      "organizer": "국립원예특작과학원",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-15",
+      "endDate": "2026-10-12",
+      "genres": [
+        "시"
+      ],
+      "prize": "없음",
+      "url": "http://www.nihhs.go.kr/usr/nihhs/news_Notice_view.do?idx=38466&mc=MN0000000135",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609160006",
+      "category": "문학작품",
+      "title": "sam 2026 한용운문학상",
+      "organizer": "SM문학그룹샘문, MH한용운문학 /SM샘문그룹",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-16",
+      "endDate": "2026-11-20",
+      "genres": [
+        "시",
+        "수필",
+        "소설",
+        "동화",
+        "희곡·시나리오"
+      ],
+      "prize": "상금(총상금 : 1,000만원 / 1위 : 0만원)",
+      "url": "http://www.saemmoonnews.co.kr/1259",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609150060",
+      "category": "문학작품",
+      "title": "제29회 한뫼 이윤재선생 추모 전국 한글사랑 글짓기·그리기 공모전",
+      "organizer": "김해시, 경남동부보훈지청/김해문화원",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-14",
+      "endDate": "2026-10-28",
+      "genres": [
+        "시"
+      ],
+      "prize": "상금+상품(총상금 : 497만원 / 1위 : 50만원 / 상장)",
+      "url": "http://www.khcc.or.kr/",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609080063",
+      "category": "문학작품",
+      "title": "2026 제6회 생육신 추모 함안 전국디카시공모전",
+      "organizer": "(사)서산서원/함안디카시인회의",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-07",
+      "endDate": "2026-10-07",
+      "genres": [
+        "시"
+      ],
+      "prize": "상금(총상금 : 600만원 / 1위 : 200만원)",
+      "url": "http://dicapoem.net/bbs/board.php?bo_table=board_board&wr_id=281",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609080062",
+      "category": "문학작품",
+      "title": "2026년 제16회 미추홀구문예대상 공모전",
+      "organizer": "인천 미추홀노인복지관",
+      "target": [
+        "초등",
+        "일반"
+      ],
+      "region": "인천",
+      "startDate": "2026-09-07",
+      "endDate": "2026-10-14",
+      "genres": [
+        "시",
+        "수필"
+      ],
+      "prize": "상금+상품(총상금 : 720만원 / 1위 : 10만원 / 상장 및 기념품 )",
+      "url": "http://www.michuholnoin.or.kr/bbs/board.php?bo_table=notice&wr_id=1524",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609070097",
+      "category": "문학작품",
+      "title": "제3회 한국작가문학대상 공모전",
+      "organizer": "한국작가협회",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-14",
+      "endDate": "2026-10-16",
+      "genres": [
+        "시",
+        "수필",
+        "소설",
+        "동화"
+      ],
+      "prize": "상금+상품(총상금 : 520만원 / 1위 : 50만원 / 상장 )",
+      "url": "http://www.eanews.kr/news/999011",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609140062",
+      "category": "문학작품",
+      "title": "계간지 『수필가』 2026년 겨을호 신인등단 작품 공모",
+      "organizer": "주식회사 수필가",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-15",
+      "endDate": "2026-10-15",
+      "genres": [
+        "수필"
+      ],
+      "prize": "상금(총상금 : 120만원 / 1위 : 30만원)",
+      "url": "http://blog.naver.com/soophilgah/224411393351",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609040010",
+      "category": "문학작품",
+      "title": "2026 정선 국가문화유산 전국 디카시 공모전",
+      "organizer": "강원도민일보",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-15",
+      "genres": [
+        "시"
+      ],
+      "prize": "상금+상품(총상금 : 900만원 / 1위 : 300만원 / 상장 )",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609040010",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609040009",
+      "category": "문학작품",
+      "title": "계간 생명과문학 2026년 신인상 작품공모",
+      "organizer": "계간 생명과문학",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-04",
+      "endDate": "2026-10-15",
+      "genres": [
+        "시",
+        "수필",
+        "소설",
+        "동화"
+      ],
+      "prize": "없음",
+      "url": "http://blog.naver.com/lifepen2021",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609100006",
+      "category": "문학작품",
+      "title": "2026 부산 해양문학 공모전",
+      "organizer": "한국해양진흥공사, 부산일보",
+      "target": [
+        "일반"
+      ],
+      "region": "부산",
+      "startDate": "2026-09-09",
+      "endDate": "2026-10-28",
+      "genres": [
+        "시",
+        "수필",
+        "소설"
+      ],
+      "prize": "상금(총상금 : 2,800만원 / 1위 : 1,000만원)",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609100006",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609070053",
+      "category": "문학작품",
+      "title": "제2회 아리랑 신인문학상",
+      "organizer": "정선군, 정선아리랑문화재단, 강원도민일보",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "강원",
+      "startDate": "2026-09-07",
+      "endDate": "2026-10-16",
+      "genres": [
+        "시",
+        "소설"
+      ],
+      "prize": "상금(총상금 : 1,500만원 / 1위 : 1,000만원)",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609070053",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609010008",
+      "category": "문학작품",
+      "title": "제3회 윤동주 서시 문예공모전",
+      "organizer": "윤동주연구소, 계간 서시",
+      "target": [
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-08-20",
+      "endDate": "2026-10-15",
+      "genres": [
+        "수필"
+      ],
+      "prize": "상금+상품(총상금 : 0만원 / 1위 : 100만원 / 상장 )",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609010008",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609030067",
+      "category": "문학작품",
+      "title": "2026 노벨피아 우주최강 웹소설 공모전",
+      "organizer": "(주) 메타크래프트",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-29",
+      "genres": [
+        "시",
+        "소설"
+      ],
+      "prize": "상금(총상금 : 30,000만원 / 1위 : 5,000만원)",
+      "url": "http://novelpia.com/event/2026?p_id=con63",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202608280010",
+      "category": "문학작품",
+      "title": "제14회 신동문 청소년문학상 공모",
+      "organizer": "청주문인협회",
+      "target": [
+        "고등"
+      ],
+      "region": "충북",
+      "startDate": "2026-08-27",
+      "endDate": "2026-10-11",
+      "genres": [
+        "수필",
+        "소설"
+      ],
+      "prize": "상금+상품(총상금 : 0만원 / 1위 : 100만원 / 상장 )",
+      "url": "http://cafe.daum.net/cjmoonin/3FXN/525",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609030025",
+      "category": "문학작품",
+      "title": "2026 전국 민촌백일장",
+      "organizer": "한국문인협회천안지부",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-01",
+      "endDate": "2026-11-08",
+      "genres": [
+        "시",
+        "수필"
+      ],
+      "prize": "상금(총상금 : 350만원 / 1위 : 50만원)",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609030025",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609020053",
+      "category": "문학작품",
+      "title": "2026 GoodNovel 웹소설 공모전 《금단의 사랑》",
+      "organizer": "GoodNovel",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-01",
+      "endDate": "2026-12-01",
+      "genres": [
+        "소설"
+      ],
+      "prize": "기간 내 조회수 20,000회 달성시 300$ 지급",
+      "url": "http://www.goodnovel.com/contests/the-series/375",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609010070",
+      "category": "문학작품",
+      "title": "2026년 제35회 부산자랑 시민예술제 하반기 백일장 공모전",
+      "organizer": "(사)부산광역시문인협회/(사)부산광역시문인협회",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "부산",
+      "startDate": "2026-09-01",
+      "endDate": "2026-10-08",
+      "genres": [
+        "시"
+      ],
+      "prize": "장원 4명, 차상 10명, 차하 8명 , 참방 30명, 장려상 참가인원 15% 이내",
+      "url": "http://blo.co.kr/bbs/board.php?bo_table=notice&wr_id=229",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202609010033",
+      "category": "문학작품",
+      "title": "제50회 전국 초중학생 발명글짓기만화 공모전",
+      "organizer": "한국발명진흥회",
+      "target": [
+        "초등",
+        "중등"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-01",
+      "endDate": "2026-10-08",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "상장, 메달, 상품권, 부상",
+      "url": "http://www.kipa.org/kipa/ip002/kw_hrtraining_2402.jsp",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202608270042",
+      "category": "문학작품",
+      "title": "2026 스토리랩북스 에세이 공모전",
+      "organizer": "스토리랩북스",
+      "target": [
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-16",
+      "endDate": "2026-10-15",
+      "genres": [
+        "수필"
+      ],
+      "prize": "초판 선인세 30만원 지급, 출판 계약",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202608270042",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202608200019",
+      "category": "문학작품",
+      "title": "제2회 구몬학습 창작 문학 공모전 with 현대자동차그룹",
+      "organizer": "(주)교원구몬/(주)교원구몬",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-08-19",
+      "endDate": "2026-10-31",
+      "genres": [
+        "시"
+      ],
+      "prize": "상금(총상금 : 3,700만원 / 1위 : 150만원)",
+      "url": "http://kumon.co.kr/contest/",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202608120014",
+      "category": "문학작품",
+      "title": "제1회 박위장군 문학상 전국 공모전",
+      "organizer": "신정문학&문인협회/한국문화컨텐츠 발전소",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-01",
+      "endDate": "2026-11-30",
+      "genres": [
+        "시",
+        "수필",
+        "소설"
+      ],
+      "prize": "상장",
+      "url": "http://www.ptculture.co.kr/bbs/board.php?bo_table=menu6_2&wr_id=296",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202608120011",
+      "category": "문학작품",
+      "title": "2026년 젊은 시조 작가상 공모",
+      "organizer": "전북시조시인협회",
+      "target": [
+        "일반"
+      ],
+      "region": "전북",
+      "startDate": "2026-08-10",
+      "endDate": "2026-10-30",
+      "genres": [
+        "시"
+      ],
+      "prize": "상금+상품(총상금 : 140만원 / 1위 : 50만원 / 상장 )",
+      "url": "http://cafe.daum.net/jeonbuksijo2022/bkYu/173",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202608150019",
+      "category": "문학작품",
+      "title": "제8회 탄천문학상 공모",
+      "organizer": "탄천문학회",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-07",
+      "endDate": "2026-10-10",
+      "genres": [
+        "시",
+        "수필",
+        "소설",
+        "동화"
+      ],
+      "prize": "상패와 부상",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202608150019",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "ck-202608100077",
+      "category": "문학작품",
+      "title": "제4회 현대문학*미래엔 청소년문학상",
+      "organizer": "현대문학, 미래엔",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-06-01",
+      "endDate": "2027-01-31",
+      "genres": [
+        "소설"
+      ],
+      "prize": "상금(총상금 : 2,000만원 / 1위 : 2,000만원)",
+      "url": "http://www.hdmh.co.kr/front/customer/newsDetail?idx=242&type=N",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111917",
+      "category": "문학작품",
+      "title": "2027 매일신춘문예 공모",
+      "organizer": "매일신문사",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-28",
+      "endDate": "2026-12-08",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 700만원 / 총 상금 5천만원~3천만원",
+      "url": "https://www.imaeil.com/page/view/2026102614510994469",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111860",
+      "category": "문학작품",
+      "title": "2027 국제신문 신춘문예 공모",
+      "organizer": "국제신문",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-26",
+      "endDate": "2026-12-03",
+      "genres": [
+        "시",
+        "소설",
+        "동화"
+      ],
+      "prize": "1등 700만원 / 총 상금 3천만원~1천만원",
+      "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1800&key=20261026.22001007240",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111857",
+      "category": "문학작품",
+      "title": "2027년 현대경제신문 신춘문예 공모",
+      "organizer": "현대경제신문",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-30",
+      "genres": [
+        "소설"
+      ],
+      "prize": "1등 1,000만원 / 총 상금 3천만원~1천만원",
+      "url": "https://www.finomy.com/news/articleView.html?idxno=264548",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111856",
+      "category": "문학작품",
+      "title": "2027 광남일보 한국문학대상",
+      "organizer": "광남일보",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-22",
+      "endDate": "2026-12-17",
+      "genres": [
+        "소설",
+        "동화"
+      ],
+      "prize": "1등 200만원 / 총 상금 1천만원이하",
+      "url": "http://www.gwangnam.co.kr/article.php?aid=1792576020549531120",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111739",
+      "category": "문학작품",
+      "title": "제1회 꿈꾸미닷컴 꿈 수필 공모전",
+      "organizer": "꿈꾸미닷컴",
+      "target": [
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-18",
+      "endDate": "2026-11-18",
+      "genres": [
+        "수필"
+      ],
+      "prize": "총 상금 1천만원이하",
+      "url": "https://ggumggumi.com/contest",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111645",
+      "category": "문학작품",
+      "title": "2026 함안복합문학관 디카시 공모전",
+      "organizer": "함안복합문학관",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "경남",
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-13",
+      "genres": [
+        "시"
+      ],
+      "prize": "총 상금 다양한 혜택",
+      "url": "https://www.haman.go.kr/06798/06818.web?gcode=6219&idx=17218482&amode=view&",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111618",
+      "category": "문학작품",
+      "title": "2027 불교신문 신춘문예 공모",
+      "organizer": "불교신문",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-27",
+      "genres": [
+        "시",
+        "소설",
+        "동화"
+      ],
+      "prize": "1등 500만원 / 총 상금 3천만원~1천만원",
+      "url": "http://www.ibulgyo.com/news/articleView.html?idxno=443178",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111381",
+      "category": "문학작품",
+      "title": "2027년 경남도민신문 신춘문예 공모",
+      "organizer": "경남도민신문, 시와비평",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "경남",
+      "startDate": "2026-10-01",
+      "endDate": "2026-11-30",
+      "genres": [
+        "시",
+        "수필"
+      ],
+      "prize": "1등 300만원 / 총 상금 1천만원이하",
+      "url": "http://www.gndomin.com/",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111374",
+      "category": "문학작품",
+      "title": "2027 영주신문 제4회 신춘문예 및 학생(학교밖청소년) 백일장 응모",
+      "organizer": "영주신문문예진흥회",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "경북",
+      "startDate": "2026-10-01",
+      "endDate": "2026-11-30",
+      "genres": [
+        "시",
+        "수필"
+      ],
+      "prize": "1등 1,000만원 / 총 상금 3천만원~1천만원",
+      "url": "http://www.yeongjunews.co.kr/front/news/view.do?articleId=ARTICLE_00044899",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111372",
+      "category": "문학작품",
+      "title": "제5회 중부광역신문 신춘문예",
+      "organizer": "중부광역신문, 청주시문학협회",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "충북",
+      "startDate": "2026-09-17",
+      "endDate": "2026-11-30",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 300만원 / 총 상금 1천만원이하",
+      "url": "https://www.jbknews.co.kr/news/articleView.html?idxno=219728",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111333",
+      "category": "문학작품",
+      "title": "제17회 천강문학상 작품 공모",
+      "organizer": "의령군",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "경남",
+      "startDate": "2027-01-01",
+      "endDate": "2027-01-31",
+      "genres": [
+        "시",
+        "수필",
+        "소설",
+        "동화"
+      ],
+      "prize": "1등 1,000만원 / 총 상금 1천만원이하",
+      "url": "https://www.uiryeong.go.kr/board/view.uiryeong?boardId=BBS_0000070&menuCd=DOM_000000203003001001&dataSid=316445&gosiNo=36301",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111023",
+      "category": "문학작품",
+      "title": "제25회 사계절문학상 공모",
+      "organizer": "사계절출판사",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-03-04",
+      "endDate": "2026-12-31",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 2,000만원 / 총 상금 3천만원~1천만원",
+      "url": "https://www.sakyejul.net/bbs/m/mcb_data_view.php?type=mcb&ep=ep993587793575e55ff04653&gp=all&item=md7521927669a7ea24b6b98",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-110883",
+      "category": "문학작품",
+      "title": "제28회 의정부전국문학공모전",
+      "organizer": "한국문인협회 의정부지부",
+      "target": [
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-13",
+      "endDate": "2026-11-13",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 20만원 / 총 상금 1천만원이하",
+      "url": "https://cafe.daum.net/21munin/4vtv/121",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-110561",
+      "category": "문학작품",
+      "title": "제25회 대산대학문학상 공모",
+      "organizer": "대산문화재단",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-01",
+      "endDate": "2026-11-06",
+      "genres": [
+        "시",
+        "소설",
+        "동화",
+        "희곡·시나리오"
+      ],
+      "prize": "1등 700만원 / 총 상금 1천만원이하",
+      "url": "https://www.daesan.or.kr/daesan-award/2026/university/index.html",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-109884",
+      "category": "문학작품",
+      "title": "제15회 제주4·3평화문학상 공모",
+      "organizer": "제주4.3평화재단",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "제주",
+      "startDate": "2026-05-22",
+      "endDate": "2026-11-20",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 5,000만원 / 총 상금 5천만원이상",
+      "url": "https://jeju43peace.or.kr/kor/BBSMSTR_000000000001/8079/view.do",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-109881",
+      "category": "문학작품",
+      "title": "2027 창비 청소년 문학상 공모",
+      "organizer": "창비",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2027-01-04",
+      "endDate": "2027-03-31",
+      "genres": [
+        "소설"
+      ],
+      "prize": "1등 2,000만원 / 총 상금 3천만원~1천만원",
+      "url": "https://www.changbi.com/contest?type=2",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-109584",
+      "category": "문학작품",
+      "title": "어린이동산 제36회 중편 동화 공모전",
+      "organizer": "농민신문사",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-08-01",
+      "endDate": "2026-11-06",
+      "genres": [
+        "동화"
+      ],
+      "prize": "1등 300만원 / 총 상금 1천만원이하",
+      "url": "https://blog.naver.com/i-child/224359229143",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-109195",
+      "category": "문학작품",
+      "title": "제1회 자갈치문학상 공모",
+      "organizer": "자갈치문학상운영위원회",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2027-04-01",
+      "endDate": "2027-05-31",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "총 상금 1천만원이하",
+      "url": "https://blog.naver.com/jagalchi-lit/224303588513",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-109126",
+      "category": "문학작품",
+      "title": "제 2회 창비교육 동화 공모전 이야기친구상",
+      "organizer": "창비교육",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-05-11",
+      "endDate": "2026-11-30",
+      "genres": [
+        "동화"
+      ],
+      "prize": "1등 1,500만원 / 총 상금 3천만원~1천만원",
+      "url": "https://books.changbiedu.com/Home/NewsDetail?newsid=270",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111909",
+      "category": "문학작품",
+      "title": "2026 제1회 창원 마산국화축제 홍보 현장 디카시백일장",
+      "organizer": "창신대학교",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "경남",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-01",
+      "genres": [
+        "시"
+      ],
+      "prize": "1등 50만원 / 총 상금 1천만원이하",
+      "url": "https://dicapoem.net/bbs/board.php?bo_table=board_contest51&wr_id=2",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111789",
+      "category": "문학작품",
+      "title": "2026 부산 국제 한국디카시 공모전",
+      "organizer": "KIT. 경남정보대학교 부산앵커센터 글로벌 디카시 연구소",
+      "target": [
+        "일반"
+      ],
+      "region": "부산",
+      "startDate": "2026-10-06",
+      "endDate": "2026-10-30",
+      "genres": [
+        "시"
+      ],
+      "prize": "1등 500만원 / 총 상금 1천만원이하",
+      "url": "https://www.kit.ac.kr/life/notice/campus?id=170371&command=read",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111501",
+      "category": "문학작품",
+      "title": "제15회 구상한강백일장",
+      "organizer": "영등포구·(사)구상선생기념사업회",
+      "target": [
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "서울",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-22",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 150만원 / 총 상금 1천만원이하",
+      "url": "https://cafe.naver.com/kusang100iljang",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111428",
+      "category": "문학작품",
+      "title": "제18회 포항소재 문학작품 공모전",
+      "organizer": "포항문인협회",
+      "target": [
+        "일반"
+      ],
+      "region": "경북",
+      "startDate": "2026-09-25",
+      "endDate": "2026-10-31",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 300만원 / 총 상금 1천만원이하",
+      "url": "https://cafe.daum.net/pohangliterature/F4C8/56",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111332",
+      "category": "문학작품",
+      "title": "제4회 만추문예",
+      "organizer": "매일경제신문, 교보문고",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-15",
+      "genres": [
+        "시",
+        "소설"
+      ],
+      "prize": "1등 500만원 / 총 상금 1천만원이하",
+      "url": "https://www.mk.co.kr/news/notice/12145567",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-110956",
+      "category": "문학작품",
+      "title": "제25회 원광김용문학상",
+      "organizer": "원광대학교 신문방송사",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-08-31",
+      "endDate": "2026-10-16",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 100만원 / 총 상금 1천만원이하",
+      "url": "http://www.wknews.net/",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-110952",
+      "category": "문학작품",
+      "title": "제52회 영천문화예술제 2026 영천시 전국 백일장",
+      "organizer": "한국문인협회 영천지부",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-02",
+      "endDate": "2026-10-04",
+      "genres": [
+        "시"
+      ],
+      "prize": "1등 50만원 / 총 상금 1천만원이하",
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=110952",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-110892",
+      "category": "문학작품",
+      "title": "2026 제53회 강수백일장",
+      "organizer": "한국문인협회 충주지부",
+      "target": [
+        "초등",
+        "중등",
+        "고등"
+      ],
+      "region": "충북",
+      "startDate": "2026-09-14",
+      "endDate": "2026-10-08",
+      "genres": [
+        "시",
+        "수필"
+      ],
+      "prize": "총 상금 다양한 혜택",
+      "url": "https://cafe.daum.net/kccma/Gc03/481",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-110831",
+      "category": "문학작품",
+      "title": "[엔리즈×네이버 시리즈] 2026 엔리즈 고등학생 대학생 웹소설 공모전",
+      "organizer": "엔리즈",
+      "target": [
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-01",
+      "endDate": "2026-11-01",
+      "genres": [
+        "소설"
+      ],
+      "prize": "총 상금 다양한 혜택",
+      "url": "http://n-ries.com/sub0103.php?ptype=view&idx=5449&page=&code=sub0103",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-110690",
+      "category": "문학작품",
+      "title": "제46회 백록문학상 공모전",
+      "organizer": "제주대학교 신문방송출판부",
+      "target": [
+        "일반"
+      ],
+      "region": "제주",
+      "startDate": "2026-07-30",
+      "endDate": "2026-10-11",
+      "genres": [
+        "수필",
+        "소설"
+      ],
+      "prize": "1등 100만원 / 총 상금 1천만원이하",
+      "url": "https://www.jejunu.ac.kr/ara/noticesurvey/outEvent.htm?act=view&seq=279245",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-110649",
+      "category": "문학작품",
+      "title": "[제580돌 한글날 기념] 삼행시 공모전",
+      "organizer": "문화체육관광부 / 울산대학교 국어문화원",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "울산",
+      "startDate": "2026-09-01",
+      "endDate": "2026-10-18",
+      "genres": [
+        "시"
+      ],
+      "prize": "1등 12만원 / 총 상금 1천만원이하",
+      "url": "https://uoukorean.ulsan.ac.kr/uoukorean",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-110520",
+      "category": "문학작품",
+      "title": "2026년 제33회 김유정기억하기 전국문예작품공모",
+      "organizer": "김유정기념사업회",
+      "target": [
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-01",
+      "endDate": "2026-10-31",
+      "genres": [
+        "시"
+      ],
+      "prize": "1등 20만원 / 총 상금 1천만원이하",
+      "url": "https://www.yjkim.co.kr/bbs_shop/read.htm?board_code=sub0401&idx=1692895&cate_sub_idx=0",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-110518",
+      "category": "문학작품",
+      "title": "제37회 전국 성호문학상 공모",
+      "organizer": "한국문인협회 안산지부",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-08-31",
+      "endDate": "2026-10-21",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 300만원 / 총 상금 1천만원이하",
+      "url": "https://cafe.daum.net/Ansanmunin/3Z4j/365",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-110421",
+      "category": "문학작품",
+      "title": "제5회 통영 동피랑문학상 공모",
+      "organizer": "동피랑문학상 운영위원회",
+      "target": [
+        "일반"
+      ],
+      "region": "경남",
+      "startDate": "2026-09-01",
+      "endDate": "2026-10-30",
+      "genres": [
+        "시",
+        "수필"
+      ],
+      "prize": "1등 200만원 / 총 상금 1천만원이하",
+      "url": "https://cafe.daum.net/jinjunamgangmundan/bD2t/6",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-110413",
+      "category": "문학작품",
+      "title": "2026년 영등포문학상 작품공모",
+      "organizer": "영등포구",
+      "target": [
+        "일반"
+      ],
+      "region": "서울",
+      "startDate": "2026-08-26",
+      "endDate": "2026-10-16",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 1,000만원 / 총 상금 3천만원~1천만원",
+      "url": "https://cafe.daum.net/koyoli",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-110354",
+      "category": "문학작품",
+      "title": "제18회 관동별곡 송강 전국 고교생 백일장",
+      "organizer": "강원도민일보",
+      "target": [
+        "중등",
+        "고등"
+      ],
+      "region": "전국",
+      "startDate": "2026-08-19",
+      "endDate": "2026-10-08",
+      "genres": [
+        "시",
+        "수필",
+        "소설"
+      ],
+      "prize": "1등 100만원 / 총 상금 1천만원이하",
+      "url": "https://www.kado.net/news/articleView.html?idxno=2067250",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-110216",
+      "category": "문학작품",
+      "title": "제 25회 안산전국여성백일장",
+      "organizer": "안산여성문학회",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-15",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 100만원 / 총 상금 1천만원이하",
+      "url": "https://cafe.daum.net/ansanwl",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-109923",
+      "category": "문학작품",
+      "title": "2026 대한민국 SF판타지 웹소설 공모전",
+      "organizer": "대전광역시, 한국콘텐츠진흥원 / 대전정보문화산업진흥원, 전자신문, 문피아",
+      "target": [
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "대전",
+      "startDate": "2026-09-02",
+      "endDate": "2026-10-06",
+      "genres": [
+        "소설"
+      ],
+      "prize": "1등 3,000만원 / 총 상금 5천만원이상",
+      "url": "https://www.munpia.com/event/1161757/viewpage",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-109909",
+      "category": "문학작품",
+      "title": "계간 제3의문학은다문학상 공모",
+      "organizer": "『제3의문학』",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-07-01",
+      "endDate": "2026-10-15",
+      "genres": [
+        "시"
+      ],
+      "prize": "1등 200만원 / 총 상금 1천만원이하",
+      "url": "https://blog.naver.com/3munhak/224332701870",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-109885",
+      "category": "문학작품",
+      "title": "2026년 제1회 히말라야 문예대전 작품 공모",
+      "organizer": "NGO 사단법인 나마스떼코리아",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "대전",
+      "startDate": "2026-08-01",
+      "endDate": "2026-10-30",
+      "genres": [
+        "시",
+        "수필"
+      ],
+      "prize": "1등 200만원 / 총 상금 1천만원이하",
+      "url": "https://namastekorea.net/?page_id=196&mod=document&uid=2163",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-109872",
+      "category": "문학작품",
+      "title": "제13회 금샘문학상 공모",
+      "organizer": "금정문화원",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-08-24",
+      "endDate": "2026-10-08",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 500만원 / 총 상금 1천만원이하",
+      "url": "http://www.kumjung.or.kr/sub/template.php?midx=50&mode=view&intnum=469",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-109670",
+      "category": "문학작품",
+      "title": "2026년 제9회 아산문학상 전국공모 및 제4회 아산향토문학상 공모",
+      "organizer": "한국문인협회 아산지부",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-08-03",
+      "endDate": "2026-10-30",
+      "genres": [
+        "시",
+        "수필",
+        "소설"
+      ],
+      "prize": "1등 200만원 / 총 상금 1천만원이하",
+      "url": "https://cafe.daum.net/readasan/kXj7/26",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-109595",
+      "category": "문학작품",
+      "title": "2026 제3회 무안문학상 공모",
+      "organizer": "무안문학상운영위원회",
+      "target": [
+        "일반"
+      ],
+      "region": "전남",
+      "startDate": "2026-07-27",
+      "endDate": "2026-10-07",
+      "genres": [
+        "시",
+        "수필",
+        "소설"
+      ],
+      "prize": "1등 500만원 / 총 상금 1천만원이하",
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=109595",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-109358",
+      "category": "문학작품",
+      "title": "2026년 시결 신인상 공모",
+      "organizer": "계간 시결",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-07-20",
+      "endDate": "2026-10-10",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 100만원 / 총 상금 1천만원이하",
+      "url": "https://cafe.daum.net/SIGYEOL",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-109196",
+      "category": "문학작품",
+      "title": "2026 제38회 신라문학대상 공모",
+      "organizer": "신라문학대상운영위원회",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-01",
+      "endDate": "2026-10-15",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "총 상금 3천만원~1천만원",
+      "url": "https://cafe.daum.net/gjmh1962/8Lgm/79",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
     }
   ]
 }
