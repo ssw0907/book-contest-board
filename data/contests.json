@@ -414,7 +414,7 @@
     {
       "id": "ck-202610120035",
       "category": "문학작품",
-      "title": "제2회 블루카이트 창작 글쓰기 대회",
+      "title": "제2회 블루카이트 창작 영어 글쓰기 대회",
       "organizer": "블루카이트 출판사",
       "target": [
         "중등",
@@ -430,7 +430,7 @@
       "prize": "최종 Finalists 작품 모아서 Anthology(모음집)으로 서점 출간 예정",
       "url": "http://www.bluekitepublishing.com/ko/writing-contest",
       "source": "공모전코리아",
-      "updatedAt": "2026-11-02"
+      "updatedAt": "2026-11-03"
     },
     {
       "id": "ck-202610010021",
@@ -1315,6 +1315,53 @@
       "url": "http://www.hdmh.co.kr/front/customer/newsDetail?idx=242&type=N",
       "source": "공모전코리아",
       "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-112051",
+      "category": "문학작품",
+      "title": "2027 서울신문 신춘문예 공모",
+      "organizer": "서울신문",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "서울",
+      "startDate": "2026-11-01",
+      "endDate": "2026-12-01",
+      "genres": [
+        "시",
+        "소설",
+        "동화",
+        "희곡·시나리오"
+      ],
+      "prize": "1등 700만원 / 총 상금 3천만원~1천만원",
+      "url": "https://www.seoul.co.kr/news/life/culture-news/2026/11/02/20261102001005",
+      "source": "위비티",
+      "updatedAt": "2026-11-03"
+    },
+    {
+      "id": "wv-112050",
+      "category": "문학작품",
+      "title": "제18회 손바닥문학상",
+      "organizer": "한겨레21",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-30",
+      "endDate": "2026-12-06",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 300만원 / 총 상금 1천만원이하",
+      "url": "https://h21.hani.co.kr/arti/culture/culture_general/60107.html",
+      "source": "위비티",
+      "updatedAt": "2026-11-03"
     },
     {
       "id": "wv-111917",
