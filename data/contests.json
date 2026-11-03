@@ -1295,9 +1295,9 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "ck-202608100077",
+      "id": "wv-109996",
       "category": "문학작품",
-      "title": "제4회 현대문학*미래엔 청소년문학상",
+      "title": "제4회 현대문학x미래엔 청소년문학상 공모전",
       "organizer": "현대문학, 미래엔",
       "target": [
         "초등",
@@ -1311,25 +1311,22 @@
       "genres": [
         "소설"
       ],
-      "prize": "상금(총상금 : 2,000만원 / 1위 : 2,000만원)",
-      "url": "http://www.hdmh.co.kr/front/customer/newsDetail?idx=242&type=N",
-      "source": "공모전코리아",
-      "updatedAt": "2026-11-02"
+      "prize": "1등 2,000만원 / 총 상금 3천만원~1천만원",
+      "url": "https://www.hdmh.co.kr/front/customer/newsDetail?idx=242&type=N",
+      "source": "위비티",
+      "updatedAt": "2026-11-04"
     },
     {
-      "id": "wv-112051",
+      "id": "wv-112068",
       "category": "문학작품",
-      "title": "2027 서울신문 신춘문예 공모",
-      "organizer": "서울신문",
+      "title": "2027 부산일보 신춘문예",
+      "organizer": "부산일보",
       "target": [
-        "초등",
-        "중등",
-        "고등",
         "일반"
       ],
-      "region": "서울",
-      "startDate": "2026-11-01",
-      "endDate": "2026-12-01",
+      "region": "부산",
+      "startDate": "2026-11-02",
+      "endDate": "2026-12-03",
       "genres": [
         "시",
         "소설",
@@ -1337,9 +1334,76 @@
         "희곡·시나리오"
       ],
       "prize": "1등 700만원 / 총 상금 3천만원~1천만원",
-      "url": "https://www.seoul.co.kr/news/life/culture-news/2026/11/02/20261102001005",
+      "url": "https://www.busan.com/view/busan/view.php?code=2026110218292075954",
       "source": "위비티",
-      "updatedAt": "2026-11-03"
+      "updatedAt": "2026-11-04"
+    },
+    {
+      "id": "wv-112062",
+      "category": "문학작품",
+      "title": "2027 경남신문 신춘문예 작품 공모",
+      "organizer": "경남신문",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "경남",
+      "startDate": "2026-11-03",
+      "endDate": "2026-12-01",
+      "genres": [
+        "시",
+        "수필",
+        "소설",
+        "동화"
+      ],
+      "prize": "1등 300만원 / 총 상금 1천만원이하",
+      "url": "https://www.knnews.co.kr/news/articleView.php?idxno=1554253",
+      "source": "위비티",
+      "updatedAt": "2026-11-04"
+    },
+    {
+      "id": "wv-112061",
+      "category": "문학작품",
+      "title": "제23회 세계문학상",
+      "organizer": "세계일보",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-01",
+      "endDate": "2026-12-10",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 5,000만원 / 총 상금 5천만원이상",
+      "url": "https://munhak.segye.com/guideline",
+      "source": "위비티",
+      "updatedAt": "2026-11-04"
+    },
+    {
+      "id": "wv-112059",
+      "category": "문학작품",
+      "title": "2026 강원일보 시니어문학상",
+      "organizer": "강원일보",
+      "target": [
+        "일반"
+      ],
+      "region": "강원",
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-12",
+      "genres": [
+        "시",
+        "수필"
+      ],
+      "prize": "1등 300만원 / 총 상금 1천만원이하",
+      "url": "https://www.kwnews.co.kr/article/20261014500254",
+      "source": "위비티",
+      "updatedAt": "2026-11-04"
     },
     {
       "id": "wv-112050",
@@ -1903,28 +1967,6 @@
       ],
       "prize": "1등 100만원 / 총 상금 1천만원이하",
       "url": "http://www.wknews.net/",
-      "source": "위비티",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "wv-110952",
-      "category": "문학작품",
-      "title": "제52회 영천문화예술제 2026 영천시 전국 백일장",
-      "organizer": "한국문인협회 영천지부",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-10-02",
-      "endDate": "2026-10-04",
-      "genres": [
-        "시"
-      ],
-      "prize": "1등 50만원 / 총 상금 1천만원이하",
-      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=110952",
       "source": "위비티",
       "updatedAt": "2026-11-02"
     },
