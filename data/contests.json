@@ -121,6 +121,28 @@
       "updatedAt": "2026-11-02"
     },
     {
+      "id": "ck-202611040026",
+      "category": "문학작품",
+      "title": "GoodNovel 제2회 대형 웹소설 공모전｜WRITE YOUR WORLD",
+      "organizer": "GoodNovel (굿노벨)",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-02",
+      "endDate": "2027-05-01",
+      "genres": [
+        "소설"
+      ],
+      "prize": "상금(총상금 : 5,000만원 / 1위 : 1,300만원)",
+      "url": "http://www.goodnovel.com/contests/write-your-world",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-05"
+    },
+    {
       "id": "ck-202610290029",
       "category": "문학작품",
       "title": "문학광장 제122기 신인문학상 공모",
@@ -1317,6 +1339,28 @@
       "updatedAt": "2026-11-04"
     },
     {
+      "id": "wv-112148",
+      "category": "문학작품",
+      "title": "제1회 동물사랑 디카시 공모전",
+      "organizer": "한국디카시인협회 서울북부지회 / 서울북부지회",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "서울",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-30",
+      "genres": [
+        "시"
+      ],
+      "prize": "총 상금 다양한 혜택",
+      "url": "https://cafe.daum.net/.dicapoemjournal/MnJe/3",
+      "source": "위비티",
+      "updatedAt": "2026-11-05"
+    },
+    {
       "id": "wv-112068",
       "category": "문학작품",
       "title": "2027 부산일보 신춘문예",
@@ -2278,65 +2322,6 @@
       ],
       "prize": "1등 200만원 / 총 상금 1천만원이하",
       "url": "https://cafe.daum.net/readasan/kXj7/26",
-      "source": "위비티",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "wv-109595",
-      "category": "문학작품",
-      "title": "2026 제3회 무안문학상 공모",
-      "organizer": "무안문학상운영위원회",
-      "target": [
-        "일반"
-      ],
-      "region": "전남",
-      "startDate": "2026-07-27",
-      "endDate": "2026-10-07",
-      "genres": [
-        "시",
-        "수필",
-        "소설"
-      ],
-      "prize": "1등 500만원 / 총 상금 1천만원이하",
-      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=109595",
-      "source": "위비티",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "wv-109358",
-      "category": "문학작품",
-      "title": "2026년 시결 신인상 공모",
-      "organizer": "계간 시결",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-07-20",
-      "endDate": "2026-10-10",
-      "genres": [
-        "원문 참고"
-      ],
-      "prize": "1등 100만원 / 총 상금 1천만원이하",
-      "url": "https://cafe.daum.net/SIGYEOL",
-      "source": "위비티",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "wv-109196",
-      "category": "문학작품",
-      "title": "2026 제38회 신라문학대상 공모",
-      "organizer": "신라문학대상운영위원회",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-09-01",
-      "endDate": "2026-10-15",
-      "genres": [
-        "원문 참고"
-      ],
-      "prize": "총 상금 3천만원~1천만원",
-      "url": "https://cafe.daum.net/gjmh1962/8Lgm/79",
       "source": "위비티",
       "updatedAt": "2026-11-02"
     }
