@@ -916,28 +916,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "ck-202609080063",
-      "category": "문학작품",
-      "title": "2026 제6회 생육신 추모 함안 전국디카시공모전",
-      "organizer": "(사)서산서원/함안디카시인회의",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-09-07",
-      "endDate": "2026-10-07",
-      "genres": [
-        "시"
-      ],
-      "prize": "상금(총상금 : 600만원 / 1위 : 200만원)",
-      "url": "http://dicapoem.net/bbs/board.php?bo_table=board_board&wr_id=281",
-      "source": "공모전코리아",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "ck-202609080062",
       "category": "문학작품",
       "title": "2026년 제16회 미추홀구문예대상 공모전",
@@ -1360,6 +1338,25 @@
       "url": "https://www.hdmh.co.kr/front/customer/newsDetail?idx=242&type=N",
       "source": "위비티",
       "updatedAt": "2026-11-04"
+    },
+    {
+      "id": "wv-112212",
+      "category": "문학작품",
+      "title": "제1회 AI 숏드라마 시나리오 공모전",
+      "organizer": "다음",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-26",
+      "genres": [
+        "희곡·시나리오"
+      ],
+      "prize": "총 상금 3천만원~1천만원",
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=112212",
+      "source": "위비티",
+      "updatedAt": "2026-11-07"
     },
     {
       "id": "wv-112148",
@@ -1789,28 +1786,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "wv-110561",
-      "category": "문학작품",
-      "title": "제25회 대산대학문학상 공모",
-      "organizer": "대산문화재단",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-09-01",
-      "endDate": "2026-11-06",
-      "genres": [
-        "시",
-        "소설",
-        "동화",
-        "희곡·시나리오"
-      ],
-      "prize": "1등 700만원 / 총 상금 1천만원이하",
-      "url": "https://www.daesan.or.kr/daesan-award/2026/university/index.html",
-      "source": "위비티",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "wv-109884",
       "category": "문학작품",
       "title": "제15회 제주4·3평화문학상 공모",
@@ -1851,25 +1826,6 @@
       ],
       "prize": "1등 2,000만원 / 총 상금 3천만원~1천만원",
       "url": "https://www.changbi.com/contest?type=2",
-      "source": "위비티",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "wv-109584",
-      "category": "문학작품",
-      "title": "어린이동산 제36회 중편 동화 공모전",
-      "organizer": "농민신문사",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-08-01",
-      "endDate": "2026-11-06",
-      "genres": [
-        "동화"
-      ],
-      "prize": "1등 300만원 / 총 상금 1천만원이하",
-      "url": "https://blog.naver.com/i-child/224359229143",
       "source": "위비티",
       "updatedAt": "2026-11-02"
     },
@@ -2123,6 +2079,28 @@
       "updatedAt": "2026-11-02"
     },
     {
+      "id": "wv-110561",
+      "category": "문학작품",
+      "title": "제25회 대산대학문학상 공모",
+      "organizer": "대산문화재단",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-01",
+      "endDate": "2026-11-06",
+      "genres": [
+        "시",
+        "소설",
+        "동화",
+        "희곡·시나리오"
+      ],
+      "prize": "1등 700만원 / 총 상금 1천만원이하",
+      "url": "https://www.daesan.or.kr/daesan-award/2026/university/index.html",
+      "source": "위비티",
+      "updatedAt": "2026-11-02"
+    },
+    {
       "id": "wv-110520",
       "category": "문학작품",
       "title": "2026년 제33회 김유정기억하기 전국문예작품공모",
@@ -2328,25 +2306,23 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "wv-109595",
+      "id": "wv-109584",
       "category": "문학작품",
-      "title": "2026 제3회 무안문학상 공모",
-      "organizer": "무안문학상운영위원회",
+      "title": "어린이동산 제36회 중편 동화 공모전",
+      "organizer": "농민신문사",
       "target": [
         "일반"
       ],
-      "region": "전남",
-      "startDate": "2026-07-27",
-      "endDate": "2026-10-07",
+      "region": "전국",
+      "startDate": "2026-08-01",
+      "endDate": "2026-11-06",
       "genres": [
-        "시",
-        "수필",
-        "소설"
+        "동화"
       ],
-      "prize": "1등 500만원 / 총 상금 1천만원이하",
-      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=109595",
+      "prize": "1등 300만원 / 총 상금 1천만원이하",
+      "url": "https://blog.naver.com/i-child/224359229143",
       "source": "위비티",
-      "updatedAt": "2026-11-06"
+      "updatedAt": "2026-11-02"
     },
     {
       "id": "wv-109358",
