@@ -1172,48 +1172,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "ck-202609010070",
-      "category": "문학작품",
-      "title": "2026년 제35회 부산자랑 시민예술제 하반기 백일장 공모전",
-      "organizer": "(사)부산광역시문인협회/(사)부산광역시문인협회",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "부산",
-      "startDate": "2026-09-01",
-      "endDate": "2026-10-08",
-      "genres": [
-        "시"
-      ],
-      "prize": "장원 4명, 차상 10명, 차하 8명 , 참방 30명, 장려상 참가인원 15% 이내",
-      "url": "http://blo.co.kr/bbs/board.php?bo_table=notice&wr_id=229",
-      "source": "공모전코리아",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "ck-202609010033",
-      "category": "문학작품",
-      "title": "제50회 전국 초중학생 발명글짓기만화 공모전",
-      "organizer": "한국발명진흥회",
-      "target": [
-        "초등",
-        "중등"
-      ],
-      "region": "전국",
-      "startDate": "2026-09-01",
-      "endDate": "2026-10-08",
-      "genres": [
-        "원문 참고"
-      ],
-      "prize": "상장, 메달, 상품권, 부상",
-      "url": "http://www.kipa.org/kipa/ip002/kw_hrtraining_2402.jsp",
-      "source": "공모전코리아",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "ck-202608270042",
       "category": "문학작품",
       "title": "2026 스토리랩북스 에세이 공모전",
@@ -1994,28 +1952,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "wv-110892",
-      "category": "문학작품",
-      "title": "2026 제53회 강수백일장",
-      "organizer": "한국문인협회 충주지부",
-      "target": [
-        "초등",
-        "중등",
-        "고등"
-      ],
-      "region": "충북",
-      "startDate": "2026-09-14",
-      "endDate": "2026-10-08",
-      "genres": [
-        "시",
-        "수필"
-      ],
-      "prize": "총 상금 다양한 혜택",
-      "url": "https://cafe.daum.net/kccma/Gc03/481",
-      "source": "위비티",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "wv-110831",
       "category": "문학작품",
       "title": "[엔리즈×네이버 시리즈] 2026 엔리즈 고등학생 대학생 웹소설 공모전",
@@ -2180,28 +2116,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "wv-110354",
-      "category": "문학작품",
-      "title": "제18회 관동별곡 송강 전국 고교생 백일장",
-      "organizer": "강원도민일보",
-      "target": [
-        "중등",
-        "고등"
-      ],
-      "region": "전국",
-      "startDate": "2026-08-19",
-      "endDate": "2026-10-08",
-      "genres": [
-        "시",
-        "수필",
-        "소설"
-      ],
-      "prize": "1등 100만원 / 총 상금 1천만원이하",
-      "url": "https://www.kado.net/news/articleView.html?idxno=2067250",
-      "source": "위비티",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "wv-110216",
       "category": "문학작품",
       "title": "제 25회 안산전국여성백일장",
@@ -2259,28 +2173,6 @@
       ],
       "prize": "1등 200만원 / 총 상금 1천만원이하",
       "url": "https://namastekorea.net/?page_id=196&mod=document&uid=2163",
-      "source": "위비티",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "wv-109872",
-      "category": "문학작품",
-      "title": "제13회 금샘문학상 공모",
-      "organizer": "금정문화원",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-08-24",
-      "endDate": "2026-10-08",
-      "genres": [
-        "원문 참고"
-      ],
-      "prize": "1등 500만원 / 총 상금 1천만원이하",
-      "url": "http://www.kumjung.or.kr/sub/template.php?midx=50&mode=view&intnum=469",
       "source": "위비티",
       "updatedAt": "2026-11-02"
     },
