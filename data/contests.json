@@ -121,6 +121,47 @@
       "updatedAt": "2026-11-02"
     },
     {
+      "id": "ck-202611090005",
+      "category": "문학작품",
+      "title": "제1회 ALONA 웹소설 공모전",
+      "organizer": "ALONA(알로나)",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-16",
+      "endDate": "2027-01-10",
+      "genres": [
+        "소설"
+      ],
+      "prize": "상금(총상금 : 150만원 / 1위 : 50만원)",
+      "url": "http://www.wealona.com/#/contest",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "ck-202611040062",
+      "category": "문학작품",
+      "title": "제1회 동물사랑 디카시 공모전",
+      "organizer": "한국디카시인협회 서울 북부지회",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "서울",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-30",
+      "genres": [
+        "시"
+      ],
+      "prize": "상금(총상금 : 300만원 / 1위 : 100만원)",
+      "url": "http://cafe.daum.net/.dicapoemjournal/MnJe/3",
+      "source": "공모전코리아",
+      "updatedAt": "2026-11-10"
+    },
+    {
       "id": "ck-202611040056",
       "category": "문학작품",
       "title": "제11회 디멘시아문학상 공모전",
@@ -1254,28 +1295,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "ck-202608150019",
-      "category": "문학작품",
-      "title": "제8회 탄천문학상 공모",
-      "organizer": "탄천문학회",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-09-07",
-      "endDate": "2026-10-10",
-      "genres": [
-        "시",
-        "수필",
-        "소설",
-        "동화"
-      ],
-      "prize": "상패와 부상",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202608150019",
-      "source": "공모전코리아",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "wv-109996",
       "category": "문학작품",
       "title": "제4회 현대문학x미래엔 청소년문학상 공모전",
@@ -1317,48 +1336,117 @@
       "updatedAt": "2026-11-07"
     },
     {
-      "id": "wv-112148",
+      "id": "wv-112182",
       "category": "문학작품",
-      "title": "제1회 동물사랑 디카시 공모전",
-      "organizer": "한국디카시인협회 서울북부지회 / 서울북부지회",
+      "title": "제25회 전국여성환경백일장",
+      "organizer": "인제문화원",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-20",
+      "genres": [
+        "시",
+        "수필"
+      ],
+      "prize": "1등 50만원 / 총 상금 1천만원이하",
+      "url": "http://injeculture.org/bbs/board.php?bo_table=sub6_1&wr_id=171",
+      "source": "위비티",
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "wv-112178",
+      "category": "문학작품",
+      "title": "2027년 경향신문 신춘문예",
+      "organizer": "경향신문",
       "target": [
         "초등",
         "중등",
         "고등",
         "일반"
       ],
-      "region": "서울",
-      "startDate": "2026-11-01",
-      "endDate": "2026-11-30",
+      "region": "전국",
+      "startDate": "2026-11-06",
+      "endDate": "2026-12-04",
       "genres": [
-        "시"
+        "시",
+        "소설"
       ],
-      "prize": "총 상금 다양한 혜택",
-      "url": "https://cafe.daum.net/.dicapoemjournal/MnJe/3",
+      "prize": "1등 500만원 / 총 상금 3천만원~1천만원",
+      "url": "https://www.khan.co.kr/article/202611060600061",
       "source": "위비티",
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-10"
     },
     {
-      "id": "wv-112068",
+      "id": "wv-112176",
       "category": "문학작품",
-      "title": "2027 부산일보 신춘문예",
-      "organizer": "부산일보",
+      "title": "2027 영남일보 신춘문예 공모",
+      "organizer": "영남일보",
       "target": [
+        "초등",
+        "중등",
+        "고등",
         "일반"
       ],
-      "region": "부산",
-      "startDate": "2026-11-02",
+      "region": "전국",
+      "startDate": "2026-11-06",
       "endDate": "2026-12-03",
+      "genres": [
+        "소설"
+      ],
+      "prize": "1등 700만원 / 총 상금 3천만원~1천만원",
+      "url": "https://www.yeongnam.com/web/view.php?key=20261106021217549",
+      "source": "위비티",
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "wv-112175",
+      "category": "문학작품",
+      "title": "2027 동아신춘문예",
+      "organizer": "동아일보사",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-27",
       "genres": [
         "시",
         "소설",
         "동화",
         "희곡·시나리오"
       ],
-      "prize": "1등 700만원 / 총 상금 3천만원~1천만원",
-      "url": "https://www.busan.com/view/busan/view.php?code=2026110218292075954",
+      "prize": "1등 3,000만원 / 총 상금 5천만원이상",
+      "url": "https://sinchoon.donga.com/",
       "source": "위비티",
-      "updatedAt": "2026-11-04"
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "wv-112170",
+      "category": "문학작품",
+      "title": "2027 전북일보 신춘문예 공모",
+      "organizer": "전북일보",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전북",
+      "startDate": "2026-11-04",
+      "endDate": "2026-12-04",
+      "genres": [
+        "소설",
+        "동화"
+      ],
+      "prize": "1등 300만원 / 총 상금 1천만원이하",
+      "url": "https://www.jjan.kr/boardDetail?seq=50982",
+      "source": "위비티",
+      "updatedAt": "2026-11-10"
     },
     {
       "id": "wv-112062",
@@ -2215,44 +2303,6 @@
       "url": "https://blog.naver.com/i-child/224359229143",
       "source": "위비티",
       "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "wv-109358",
-      "category": "문학작품",
-      "title": "2026년 시결 신인상 공모",
-      "organizer": "계간 시결",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-07-20",
-      "endDate": "2026-10-10",
-      "genres": [
-        "원문 참고"
-      ],
-      "prize": "1등 100만원 / 총 상금 1천만원이하",
-      "url": "https://cafe.daum.net/SIGYEOL",
-      "source": "위비티",
-      "updatedAt": "2026-11-06"
-    },
-    {
-      "id": "wv-109196",
-      "category": "문학작품",
-      "title": "2026 제38회 신라문학대상 공모",
-      "organizer": "신라문학대상운영위원회",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-09-01",
-      "endDate": "2026-10-15",
-      "genres": [
-        "원문 참고"
-      ],
-      "prize": "총 상금 3천만원~1천만원",
-      "url": "https://cafe.daum.net/gjmh1962/8Lgm/79",
-      "source": "위비티",
-      "updatedAt": "2026-11-06"
     }
   ]
 }
