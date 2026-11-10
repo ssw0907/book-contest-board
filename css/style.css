@@ -12,6 +12,8 @@
   --upcoming-soft: #e3edf9;
   --closed: #6b7280;
   --closed-soft: #eceef1;
+  --new: #7c3aed;
+  --new-soft: #efe7fd;
   --radius: 12px;
 }
 
@@ -30,6 +32,8 @@
     --upcoming-soft: #1c2d42;
     --closed: #9ca3af;
     --closed-soft: #2a2d32;
+    --new: #c4b5fd;
+    --new-soft: #2e2346;
   }
 }
 
@@ -215,6 +219,10 @@ select {
 .badge.urgent { background: var(--urgent-soft); color: var(--urgent); }
 .badge.upcoming { background: var(--upcoming-soft); color: var(--upcoming); }
 .badge.closed { background: var(--closed-soft); color: var(--closed); }
+.badge.new { background: var(--new-soft); color: var(--new); }
+.badge.changed { background: var(--new-soft); color: var(--new); font-weight: 600; }
+
+.badges { display: flex; flex-wrap: wrap; gap: 6px; }
 
 .region { font-size: 0.85rem; color: var(--muted); }
 

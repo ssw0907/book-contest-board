@@ -14,6 +14,7 @@ data/contests.json 에 자동으로 반영합니다.
 - 사람이 넣은 항목과 제목이 같은 공모전은 크롤링 결과에서 뺍니다(사람이 넣은 정보 우선).
 - 실제 공모전을 하나라도 찾으면 예시 데이터(source가 "예시 데이터")는 지웁니다.
 - 마감된 지 KEEP_CLOSED_DAYS일이 지난 크롤링 항목은 지웁니다.
+- addedAt은 처음 수집한 날, updatedAt은 내용이 마지막으로 바뀐 날입니다.
 - 어떤 사이트가 접속에 실패하면, 그 사이트에서 그 종류로 예전에 가져온 항목은 그대로 둡니다.
 """
 
@@ -297,6 +298,7 @@ def make_item(id_, title, organizer, targets, region, start, end, category, body
         "prize": prize or "원문 참고",
         "url": url,
         "source": source,
+        "addedAt": TODAY.isoformat(),  # 처음 수집한 날. 이미 있던 항목은 main에서 예전 값으로 되돌립니다.
         "updatedAt": TODAY.isoformat(),
     }
 
@@ -598,10 +600,12 @@ def main():
     cutoff = (TODAY - timedelta(days=KEEP_CLOSED_DAYS)).isoformat()
     merged = [c for c in merged if c["endDate"] >= cutoff and c["startDate"] <= c["endDate"]]
 
-    # 내용이 그대로면 예전 updatedAt 유지 (매일 불필요한 변경이 생기지 않게)
+    # 처음 수집한 날(addedAt)은 그대로 두고, 내용이 그대로면 예전 updatedAt도 유지 (매일 불필요한 변경이 생기지 않게)
     old_by_id = {c["id"]: c for c in old_crawled}
     for c in merged:
         old = old_by_id.get(c["id"])
+        if old:
+            c["addedAt"] = old.get("addedAt") or old.get("updatedAt") or c["addedAt"]
         if old and {k: v for k, v in old.items() if k != "updatedAt"} == \
                 {k: v for k, v in c.items() if k != "updatedAt"}:
             c["updatedAt"] = old.get("updatedAt", c["updatedAt"])

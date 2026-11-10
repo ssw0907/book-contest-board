@@ -16,8 +16,15 @@
   var REQUIRED = ['id', 'title', 'organizer', 'target', 'region', 'startDate', 'endDate',
     'prize', 'url', 'source', 'updatedAt'];
   var URGENT_DAYS = 7;
+  var RECENT_DAYS = 7;    // 처음 올라온 지 며칠까지 'NEW'로 볼지
+  var FRESH = [           // '최근' 필터: [값, 이름]
+    ['', '전체'],
+    ['new', '최근 ' + RECENT_DAYS + '일 등록'],
+    ['today', '오늘 업데이트']
+  ];
 
   var state = {
+    fresh: '',            // 빈 값이면 전체, 'new' 최근 등록, 'today' 오늘 업데이트
     category: '',         // 빈 값이면 전체
     targets: [],          // 비어 있으면 전체
     region: '',           // 빈 값이면 전체
@@ -28,6 +35,7 @@
 
   var el = {
     category: document.getElementById('category-tabs'),
+    fresh: document.getElementById('filter-fresh'),
     target: document.getElementById('filter-target'),
     region: document.getElementById('filter-region'),
     status: document.getElementById('filter-status'),
@@ -100,6 +108,10 @@
     ['startDate', 'endDate', 'updatedAt'].forEach(function (key) {
       if (!isValidDate(item[key])) errors.push(key + ' "' + item[key] + '"이(가) YYYY-MM-DD 형식이 아닙니다');
     });
+    // addedAt(처음 올라온 날)은 직접 입력 항목에선 생략할 수 있음 → 없으면 updatedAt을 씀
+    if (item.addedAt !== undefined && !isValidDate(item.addedAt)) {
+      errors.push('addedAt "' + item.addedAt + '"이(가) YYYY-MM-DD 형식이 아닙니다');
+    }
     if (isValidDate(item.startDate) && isValidDate(item.endDate) && item.startDate > item.endDate) {
       errors.push('startDate가 endDate보다 늦습니다');
     }
@@ -131,12 +143,20 @@
     }
     c._start = start;
     c._end = end;
+
+    c.addedAt = item.addedAt || item.updatedAt;
+    c._added = toDayNumber(c.addedAt);
+    c.addedToday = c._added === t;
+    c.isNew = t - c._added < RECENT_DAYS;
+    c.updatedToday = item.updatedAt === today;
     return c;
   }
 
   var STATUS_ORDER = { '접수중': 0, '예정': 1, '마감': 2 };
 
   function compare(a, b) {
+    // 최근 등록만 볼 때는 새로 올라온 순서가 먼저
+    if (state.fresh === 'new' && a._added !== b._added) return b._added - a._added;
     var s = STATUS_ORDER[a.status] - STATUS_ORDER[b.status];
     if (s !== 0) return s;
     if (a.status === '접수중') return a._end - b._end;      // 마감 임박 순
@@ -150,7 +170,15 @@
     return matchesFilters(c) && (!state.category || c.category === state.category);
   }
 
-  function matchesFilters(c) {
+  function matchesFresh(c, fresh) {
+    if (fresh === 'new') return c.isNew;
+    if (fresh === 'today') return c.updatedToday;
+    return true;
+  }
+
+  // ignoreFresh: '최근' 칩마다 건수를 셀 때 현재 고른 '최근' 조건은 빼고 봄
+  function matchesFilters(c, ignoreFresh) {
+    if (!ignoreFresh && !matchesFresh(c, state.fresh)) return false;
     if (c.status === '마감') {
       if (!state.showClosed) return false;
     } else if (state.statuses.indexOf(c.status) === -1) {
@@ -172,6 +200,7 @@
 
   function readQuery() {
     var q = new URLSearchParams(location.search);
+    if (q.get('fresh') === 'new' || q.get('fresh') === 'today') state.fresh = q.get('fresh');
     if (CATEGORIES.indexOf(q.get('category')) !== -1) state.category = q.get('category');
     if (q.get('target')) {
       state.targets = q.get('target').split(',').filter(function (t) { return TARGETS.indexOf(t) !== -1; });
@@ -185,6 +214,7 @@
 
   function writeQuery() {
     var q = new URLSearchParams();
+    if (state.fresh) q.set('fresh', state.fresh);
     if (state.category) q.set('category', state.category);
     if (state.targets.length) q.set('target', state.targets.join(','));
     if (state.region) q.set('region', state.region);
@@ -217,7 +247,7 @@
   }
 
   function renderCategoryTabs() {
-    var visible = contests.filter(matchesFilters);
+    var visible = contests.filter(function (c) { return matchesFilters(c); });
     el.category.textContent = '';
     [''].concat(CATEGORIES).forEach(function (category) {
       var count = visible.filter(function (c) { return !category || c.category === category; }).length;
@@ -229,8 +259,23 @@
     });
   }
 
+  function renderFresh() {
+    var pool = contests.filter(function (c) {
+      return matchesFilters(c, true) && (!state.category || c.category === state.category);
+    });
+    el.fresh.textContent = '';
+    FRESH.forEach(function (f) {
+      var value = f[0];
+      var label = value ? f[1] + ' ' + pool.filter(function (c) { return matchesFresh(c, value); }).length : f[1];
+      el.fresh.appendChild(chip(label, state.fresh === value, function () {
+        state.fresh = value; update();
+      }));
+    });
+  }
+
   function renderFilters() {
     renderCategoryTabs();
+    renderFresh();
 
     el.target.textContent = '';
     el.target.appendChild(chip('전체', state.targets.length === 0, function () {
@@ -257,7 +302,11 @@
     var li = make('li', 'card' + (c.status === '마감' ? ' is-closed' : ''));
 
     var top = make('div', 'card-top');
-    top.appendChild(make('span', 'badge ' + c.badge, c.dday));
+    var badges = make('div', 'badges');
+    badges.appendChild(make('span', 'badge ' + c.badge, c.dday));
+    if (c.isNew) badges.appendChild(make('span', 'badge new', c.addedToday ? '오늘 등록' : 'NEW'));
+    else if (c.updatedToday) badges.appendChild(make('span', 'badge changed', '오늘 업데이트'));
+    top.appendChild(badges);
     top.appendChild(make('span', 'region', c.category + ' · ' + c.region));
     li.appendChild(top);
 
@@ -279,7 +328,9 @@
     li.appendChild(info);
 
     var bottom = make('div', 'card-bottom');
-    bottom.appendChild(make('span', 'updated', '출처 ' + c.source + ' · ' + formatDate(c.updatedAt) + ' 갱신'));
+    var dates = formatDate(c.addedAt) + ' 등록';
+    if (c.updatedAt !== c.addedAt) dates += ' · ' + formatDate(c.updatedAt) + ' 갱신';
+    bottom.appendChild(make('span', 'updated', '출처 ' + c.source + ' · ' + dates));
     var a = make('a', 'btn', '원문 보기');
     a.href = c.url;
     a.target = '_blank';
@@ -306,6 +357,7 @@
   }
 
   function resetFilters() {
+    state.fresh = '';
     state.targets = [];
     state.region = '';
     state.statuses = STATUSES.slice();
