@@ -126,10 +126,21 @@ def norm_organizer(organizer):
     return re.sub(r"[^0-9A-Za-z가-힣]", "", t)
 
 
+# 언론사 이름에 흔한 말. '조선일보'와 '경상일보'가 '일보'만으로 닮았다고 보지 않도록 비교 전에 뺍니다.
+GENERIC_ORGANIZER = re.compile(r"일보|신문|뉴스|사$")
+
+
 def same_organizer(a, b):
     if not a or not b:
         return False
-    return a in b or b in a or SequenceMatcher(None, a, b).ratio() >= 0.5
+    a = GENERIC_ORGANIZER.sub("", a) or a
+    b = GENERIC_ORGANIZER.sub("", b) or b
+    if a in b or b in a:
+        return True
+    # '경인'과 '경상'처럼 짧은 이름은 한 글자만 겹쳐도 비율이 0.5가 되므로 포함 관계만 봅니다.
+    if min(len(a), len(b)) <= 3:
+        return False
+    return SequenceMatcher(None, a, b).ratio() >= 0.5
 
 
 def is_same_contest(a, b):
@@ -239,6 +250,9 @@ def guess_literature_targets(target_text, body):
 
 def guess_region(title, organizer, body):
     """신청 가능한 지역을 추정합니다. '전국' 공모라고 적혀 있으면 전국."""
+    # 신문사 신춘문예는 지역 신문이라도 누구나 응모할 수 있어, 주최 이름으로 지역을 정하지 않습니다.
+    if "신춘" in title:
+        return "전국"
     if "전국" in title or re.search(r"전국\s*(의\s*)?(초등|중|고|청소년|학생|누구나|어린이|국민)", body or ""):
         return "전국"
     head = f"{title} {organizer}"
