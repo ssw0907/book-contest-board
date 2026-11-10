@@ -1250,27 +1250,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "ck-202608280010",
-      "category": "문학작품",
-      "title": "제14회 신동문 청소년문학상 공모",
-      "organizer": "청주문인협회",
-      "target": [
-        "고등"
-      ],
-      "region": "충북",
-      "startDate": "2026-08-27",
-      "endDate": "2026-10-11",
-      "genres": [
-        "수필",
-        "소설"
-      ],
-      "prize": "상금+상품(총상금 : 0만원 / 1위 : 100만원 / 상장 )",
-      "url": "http://cafe.daum.net/cjmoonin/3FXN/525",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "ck-202609030025",
       "category": "문학작품",
       "title": "2026 전국 민촌백일장",
@@ -1422,6 +1401,29 @@
       "source": "위비티",
       "addedAt": "2026-11-04",
       "updatedAt": "2026-11-04"
+    },
+    {
+      "id": "wv-112216",
+      "category": "문학작품",
+      "title": "웅진식품 50주년 기념 문학공모전",
+      "organizer": "웅진식품",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-15",
+      "genres": [
+        "시"
+      ],
+      "prize": "1등 50만원 / 총 상금 1천만원이하",
+      "url": "https://www.instagram.com/p/DfD3tsAgU4h/",
+      "source": "위비티",
+      "addedAt": "2026-11-11",
+      "updatedAt": "2026-11-11"
     },
     {
       "id": "wv-112212",
@@ -2398,27 +2400,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "wv-110690",
-      "category": "문학작품",
-      "title": "제46회 백록문학상 공모전",
-      "organizer": "제주대학교 신문방송출판부",
-      "target": [
-        "일반"
-      ],
-      "region": "제주",
-      "startDate": "2026-07-30",
-      "endDate": "2026-10-11",
-      "genres": [
-        "수필",
-        "소설"
-      ],
-      "prize": "1등 100만원 / 총 상금 1천만원이하",
-      "url": "https://www.jejunu.ac.kr/ara/noticesurvey/outEvent.htm?act=view&seq=279245",
-      "source": "위비티",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "wv-110649",
       "category": "문학작품",
       "title": "[제580돌 한글날 기념] 삼행시 공모전",
@@ -2629,26 +2610,6 @@
       ],
       "prize": "1등 200만원 / 총 상금 1천만원이하",
       "url": "https://cafe.daum.net/readasan/kXj7/26",
-      "source": "위비티",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "wv-109584",
-      "category": "문학작품",
-      "title": "어린이동산 제36회 중편 동화 공모전",
-      "organizer": "농민신문사",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-08-01",
-      "endDate": "2026-11-06",
-      "genres": [
-        "동화"
-      ],
-      "prize": "1등 300만원 / 총 상금 1천만원이하",
-      "url": "https://blog.naver.com/i-child/224359229143",
       "source": "위비티",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
