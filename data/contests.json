@@ -127,6 +127,26 @@
       "updatedAt": "2026-11-02"
     },
     {
+      "id": "ck-202611030034",
+      "category": "문학작품",
+      "title": "필전 2026 조선 백일장",
+      "organizer": "조선일보사 · 조선일보미디어연구소 · 한글학회",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-07",
+      "endDate": "2026-12-19",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "상금(총상금 : 3,000만원 / 1위 : 1,000만원)",
+      "url": "http://gleaming-fudge-fc70bd.netlify.app/",
+      "source": "공모전코리아",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10"
+    },
+    {
       "id": "ck-202611090005",
       "category": "문학작품",
       "title": "제1회 ALONA 웹소설 공모전",
@@ -1492,6 +1512,56 @@
       "updatedAt": "2026-11-10"
     },
     {
+      "id": "wv-112174",
+      "category": "문학작품",
+      "title": "2027년 조선일보 신춘문예",
+      "organizer": "조선일보",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-06",
+      "endDate": "2026-12-02",
+      "genres": [
+        "시",
+        "소설",
+        "동화",
+        "희곡·시나리오"
+      ],
+      "prize": "1등 700만원 / 총 상금 3천만원~1천만원",
+      "url": "https://www.chosun.com/special/announcement/2026/11/06/3ZJE7OBAXFEEDFJAQNLC43HHYA/",
+      "source": "위비티",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "wv-112172",
+      "category": "문학작품",
+      "title": "2027년 문화일보 신춘문예",
+      "organizer": "문화일보",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-06",
+      "endDate": "2026-12-02",
+      "genres": [
+        "소설",
+        "동화"
+      ],
+      "prize": "1등 300만원 / 총 상금 3천만원~1천만원",
+      "url": "https://www.munhwa.com/article/11629368",
+      "source": "위비티",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10"
+    },
+    {
       "id": "wv-112170",
       "category": "문학작품",
       "title": "2027 전북일보 신춘문예 공모",
@@ -1502,7 +1572,7 @@
         "고등",
         "일반"
       ],
-      "region": "전북",
+      "region": "전국",
       "startDate": "2026-11-04",
       "endDate": "2026-12-04",
       "genres": [
@@ -1511,6 +1581,53 @@
       ],
       "prize": "1등 300만원 / 총 상금 1천만원이하",
       "url": "https://www.jjan.kr/boardDetail?seq=50982",
+      "source": "위비티",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "wv-112068",
+      "category": "문학작품",
+      "title": "2027 부산일보 신춘문예",
+      "organizer": "부산일보",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-02",
+      "endDate": "2026-12-03",
+      "genres": [
+        "시",
+        "소설",
+        "동화",
+        "희곡·시나리오"
+      ],
+      "prize": "1등 700만원 / 총 상금 3천만원~1천만원",
+      "url": "https://www.busan.com/view/busan/view.php?code=2026110218292075954",
+      "source": "위비티",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "wv-112067",
+      "category": "문학작품",
+      "title": "2027 경인일보 신춘문예",
+      "organizer": "경인일보",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-02",
+      "endDate": "2026-12-02",
+      "genres": [
+        "시",
+        "소설"
+      ],
+      "prize": "1등 500만원 / 총 상금 1천만원이하",
+      "url": "https://www.kyeongin.com/article/1773942",
       "source": "위비티",
       "addedAt": "2026-11-10",
       "updatedAt": "2026-11-10"
@@ -1526,7 +1643,7 @@
         "고등",
         "일반"
       ],
-      "region": "경남",
+      "region": "전국",
       "startDate": "2026-11-03",
       "endDate": "2026-12-01",
       "genres": [
@@ -1539,7 +1656,7 @@
       "url": "https://www.knnews.co.kr/news/articleView.php?idxno=1554253",
       "source": "위비티",
       "addedAt": "2026-11-04",
-      "updatedAt": "2026-11-04"
+      "updatedAt": "2026-11-10"
     },
     {
       "id": "wv-112061",
@@ -1584,6 +1701,58 @@
       "source": "위비티",
       "addedAt": "2026-11-04",
       "updatedAt": "2026-11-04"
+    },
+    {
+      "id": "wv-112052",
+      "category": "문학작품",
+      "title": "2027 한국일보 신춘문예 공모",
+      "organizer": "한국일보",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-02",
+      "endDate": "2026-12-02",
+      "genres": [
+        "시",
+        "소설",
+        "동화",
+        "희곡·시나리오"
+      ],
+      "prize": "1등 500만원 / 총 상금 3천만원~1천만원",
+      "url": "https://www.hankookilbo.com/news/article/A2026103019130005068",
+      "source": "위비티",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "wv-112051",
+      "category": "문학작품",
+      "title": "2027 서울신문 신춘문예 공모",
+      "organizer": "서울신문",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-01",
+      "endDate": "2026-12-01",
+      "genres": [
+        "시",
+        "소설",
+        "동화",
+        "희곡·시나리오"
+      ],
+      "prize": "1등 700만원 / 총 상금 3천만원~1천만원",
+      "url": "https://www.seoul.co.kr/news/life/culture-news/2026/11/02/20261102001005",
+      "source": "위비티",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10"
     },
     {
       "id": "wv-112050",
@@ -1655,6 +1824,29 @@
       "source": "위비티",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111859",
+      "category": "문학작품",
+      "title": "세계일보 2027 신춘문예 공모",
+      "organizer": "세계일보",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-26",
+      "endDate": "2026-12-02",
+      "genres": [
+        "소설"
+      ],
+      "prize": "1등 500만원 / 총 상금 1천만원이하",
+      "url": "https://www.segye.com/newsView/20261025509735",
+      "source": "위비티",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10"
     },
     {
       "id": "wv-111857",
@@ -1784,7 +1976,7 @@
         "고등",
         "일반"
       ],
-      "region": "경남",
+      "region": "전국",
       "startDate": "2026-10-01",
       "endDate": "2026-11-30",
       "genres": [
@@ -1795,7 +1987,7 @@
       "url": "http://www.gndomin.com/",
       "source": "위비티",
       "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
+      "updatedAt": "2026-11-10"
     },
     {
       "id": "wv-111374",
@@ -1808,7 +2000,7 @@
         "고등",
         "일반"
       ],
-      "region": "경북",
+      "region": "전국",
       "startDate": "2026-10-01",
       "endDate": "2026-11-30",
       "genres": [
@@ -1819,7 +2011,7 @@
       "url": "http://www.yeongjunews.co.kr/front/news/view.do?articleId=ARTICLE_00044899",
       "source": "위비티",
       "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
+      "updatedAt": "2026-11-10"
     },
     {
       "id": "wv-111372",
@@ -1832,7 +2024,7 @@
         "고등",
         "일반"
       ],
-      "region": "충북",
+      "region": "전국",
       "startDate": "2026-09-17",
       "endDate": "2026-11-30",
       "genres": [
@@ -1842,7 +2034,7 @@
       "url": "https://www.jbknews.co.kr/news/articleView.html?idxno=219728",
       "source": "위비티",
       "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
+      "updatedAt": "2026-11-10"
     },
     {
       "id": "wv-111333",
@@ -1869,6 +2061,30 @@
       "source": "위비티",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111295",
+      "category": "문학작품",
+      "title": "농민신문 제31회 신춘문예 작품 공모",
+      "organizer": "농민신문",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-09-23",
+      "endDate": "2026-11-27",
+      "genres": [
+        "시",
+        "소설"
+      ],
+      "prize": "1등 700만원 / 총 상금 3천만원~1천만원",
+      "url": "https://www.nongmin.com/article/20260921500766",
+      "source": "위비티",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10"
     },
     {
       "id": "wv-111023",
