@@ -1727,27 +1727,6 @@
       "updatedAt": "2026-11-04"
     },
     {
-      "id": "wv-112059",
-      "category": "문학작품",
-      "title": "2026 강원일보 시니어문학상",
-      "organizer": "강원일보",
-      "target": [
-        "일반"
-      ],
-      "region": "강원",
-      "startDate": "2026-10-15",
-      "endDate": "2026-11-12",
-      "genres": [
-        "시",
-        "수필"
-      ],
-      "prize": "1등 300만원 / 총 상금 1천만원이하",
-      "url": "https://www.kwnews.co.kr/article/20261014500254",
-      "source": "위비티",
-      "addedAt": "2026-11-04",
-      "updatedAt": "2026-11-04"
-    },
-    {
       "id": "wv-112052",
       "category": "문학작품",
       "title": "2027 한국일보 신춘문예 공모",
@@ -2267,6 +2246,27 @@
       "source": "위비티",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-112059",
+      "category": "문학작품",
+      "title": "2026 강원일보 시니어문학상",
+      "organizer": "강원일보",
+      "target": [
+        "일반"
+      ],
+      "region": "강원",
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-12",
+      "genres": [
+        "시",
+        "수필"
+      ],
+      "prize": "1등 300만원 / 총 상금 1천만원이하",
+      "url": "https://www.kwnews.co.kr/article/20261014500254",
+      "source": "위비티",
+      "addedAt": "2026-11-04",
+      "updatedAt": "2026-11-04"
     },
     {
       "id": "wv-111909",
