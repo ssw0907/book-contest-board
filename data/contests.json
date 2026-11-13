@@ -971,29 +971,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "ck-202609170001",
-      "category": "문학작품",
-      "title": "제1회 송강문학 전국 시(詩) 공모전",
-      "organizer": "진천군/(주)온컴퍼니",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-09-14",
-      "endDate": "2026-10-14",
-      "genres": [
-        "시"
-      ],
-      "prize": "상금(총상금 : 550만원 / 1위 : 200만원)",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609170001",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "ck-202609160006",
       "category": "문학작품",
       "title": "sam 2026 한용운문학상",
@@ -1039,28 +1016,6 @@
       ],
       "prize": "상금+상품(총상금 : 497만원 / 1위 : 50만원 / 상장)",
       "url": "http://www.khcc.or.kr/",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "ck-202609080062",
-      "category": "문학작품",
-      "title": "2026년 제16회 미추홀구문예대상 공모전",
-      "organizer": "인천 미추홀노인복지관",
-      "target": [
-        "초등",
-        "일반"
-      ],
-      "region": "인천",
-      "startDate": "2026-09-07",
-      "endDate": "2026-10-14",
-      "genres": [
-        "시",
-        "수필"
-      ],
-      "prize": "상금+상품(총상금 : 720만원 / 1위 : 10만원 / 상장 및 기념품 )",
-      "url": "http://www.michuholnoin.or.kr/bbs/board.php?bo_table=notice&wr_id=1524",
       "source": "공모전코리아",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
@@ -1377,6 +1332,30 @@
       "updatedAt": "2026-11-02"
     },
     {
+      "id": "wv-112349",
+      "category": "문학작품",
+      "title": "농민신문 제31회 신춘문예 작품 공모",
+      "organizer": "농민신문",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-27",
+      "genres": [
+        "시",
+        "소설"
+      ],
+      "prize": "1등 700만원 / 총 상금 3천만원~1천만원",
+      "url": "https://www.nongmin.com/article/20261102500603",
+      "source": "위비티",
+      "addedAt": "2026-11-14",
+      "updatedAt": "2026-11-14"
+    },
+    {
       "id": "wv-109996",
       "category": "문학작품",
       "title": "제4회 현대문학x미래엔 청소년문학상 공모전",
@@ -1400,24 +1379,51 @@
       "updatedAt": "2026-11-04"
     },
     {
-      "id": "wv-112228",
+      "id": "wv-112286",
       "category": "문학작품",
-      "title": "2026 전북학생 문학상 공모전",
-      "organizer": "전북특별자치도교육청",
+      "title": "2027 광주일보 신춘문예",
+      "organizer": "광주일보",
       "target": [
+        "초등",
+        "중등",
+        "고등",
         "일반"
       ],
-      "region": "전북",
-      "startDate": "2026-11-09",
-      "endDate": "2026-11-13",
+      "region": "전국",
+      "startDate": "2026-11-13",
+      "endDate": "2026-12-10",
+      "genres": [
+        "소설",
+        "동화"
+      ],
+      "prize": "1등 300만원 / 총 상금 1천만원이하",
+      "url": "http://www.kwangju.co.kr/article.php?aid=1794495600805330026",
+      "source": "위비티",
+      "addedAt": "2026-11-14",
+      "updatedAt": "2026-11-14"
+    },
+    {
+      "id": "wv-112284",
+      "category": "문학작품",
+      "title": "2027 전북도민일보 신춘문예 공모",
+      "organizer": "전북도민일보",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-12",
+      "endDate": "2026-12-12",
       "genres": [
         "원문 참고"
       ],
-      "prize": "총 상금 다양한 혜택",
-      "url": "https://www.jbe.go.kr/board/view.jbe?menuCd=DOM_000000103001000000&boardId=BBS_0000002&dataSid=1184830",
+      "prize": "1등 250만원 / 총 상금 1천만원이하",
+      "url": "https://www.domin.co.kr/news/articleView.html?idxno=1575199&sc_section_code=S1N13",
       "source": "위비티",
-      "addedAt": "2026-11-12",
-      "updatedAt": "2026-11-12"
+      "addedAt": "2026-11-14",
+      "updatedAt": "2026-11-14"
     },
     {
       "id": "wv-112216",
@@ -1602,30 +1608,6 @@
       ],
       "prize": "1등 300만원 / 총 상금 3천만원~1천만원",
       "url": "https://www.munhwa.com/article/11629368",
-      "source": "위비티",
-      "addedAt": "2026-11-10",
-      "updatedAt": "2026-11-10"
-    },
-    {
-      "id": "wv-112170",
-      "category": "문학작품",
-      "title": "2027 전북일보 신춘문예 공모",
-      "organizer": "전북일보",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-11-04",
-      "endDate": "2026-12-04",
-      "genres": [
-        "소설",
-        "동화"
-      ],
-      "prize": "1등 300만원 / 총 상금 1천만원이하",
-      "url": "https://www.jjan.kr/boardDetail?seq=50982",
       "source": "위비티",
       "addedAt": "2026-11-10",
       "updatedAt": "2026-11-10"
@@ -1942,29 +1924,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "wv-111645",
-      "category": "문학작품",
-      "title": "2026 함안복합문학관 디카시 공모전",
-      "organizer": "함안복합문학관",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "경남",
-      "startDate": "2026-10-15",
-      "endDate": "2026-11-13",
-      "genres": [
-        "시"
-      ],
-      "prize": "총 상금 다양한 혜택",
-      "url": "https://www.haman.go.kr/06798/06818.web?gcode=6219&idx=17218482&amode=view&",
-      "source": "위비티",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "wv-111618",
       "category": "문학작품",
       "title": "2027 불교신문 신춘문예 공모",
@@ -2087,30 +2046,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "wv-111295",
-      "category": "문학작품",
-      "title": "농민신문 제31회 신춘문예 작품 공모",
-      "organizer": "농민신문",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-09-23",
-      "endDate": "2026-11-27",
-      "genres": [
-        "시",
-        "소설"
-      ],
-      "prize": "1등 700만원 / 총 상금 3천만원~1천만원",
-      "url": "https://www.nongmin.com/article/20260921500766",
-      "source": "위비티",
-      "addedAt": "2026-11-10",
-      "updatedAt": "2026-11-10"
-    },
-    {
       "id": "wv-111023",
       "category": "문학작품",
       "title": "제25회 사계절문학상 공모",
@@ -2129,28 +2064,6 @@
       ],
       "prize": "1등 2,000만원 / 총 상금 3천만원~1천만원",
       "url": "https://www.sakyejul.net/bbs/m/mcb_data_view.php?type=mcb&ep=ep993587793575e55ff04653&gp=all&item=md7521927669a7ea24b6b98",
-      "source": "위비티",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "wv-110883",
-      "category": "문학작품",
-      "title": "제28회 의정부전국문학공모전",
-      "organizer": "한국문인협회 의정부지부",
-      "target": [
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-10-13",
-      "endDate": "2026-11-13",
-      "genres": [
-        "원문 참고"
-      ],
-      "prize": "1등 20만원 / 총 상금 1천만원이하",
-      "url": "https://cafe.daum.net/21munin/4vtv/121",
       "source": "위비티",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
@@ -2248,6 +2161,26 @@
       "updatedAt": "2026-11-02"
     },
     {
+      "id": "wv-112228",
+      "category": "문학작품",
+      "title": "2026 전북학생 문학상 공모전",
+      "organizer": "전북특별자치도교육청",
+      "target": [
+        "일반"
+      ],
+      "region": "전북",
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-13",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "총 상금 다양한 혜택",
+      "url": "https://www.jbe.go.kr/board/view.jbe?menuCd=DOM_000000103001000000&boardId=BBS_0000002&dataSid=1184830",
+      "source": "위비티",
+      "addedAt": "2026-11-12",
+      "updatedAt": "2026-11-12"
+    },
+    {
       "id": "wv-112059",
       "category": "문학작품",
       "title": "2026 강원일보 시니어문학상",
@@ -2307,6 +2240,29 @@
       ],
       "prize": "1등 500만원 / 총 상금 1천만원이하",
       "url": "https://www.kit.ac.kr/life/notice/campus?id=170371&command=read",
+      "source": "위비티",
+      "addedAt": "2026-11-02",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111645",
+      "category": "문학작품",
+      "title": "2026 함안복합문학관 디카시 공모전",
+      "organizer": "함안복합문학관",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "경남",
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-13",
+      "genres": [
+        "시"
+      ],
+      "prize": "총 상금 다양한 혜택",
+      "url": "https://www.haman.go.kr/06798/06818.web?gcode=6219&idx=17218482&amode=view&",
       "source": "위비티",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
@@ -2390,6 +2346,28 @@
       ],
       "prize": "1등 100만원 / 총 상금 1천만원이하",
       "url": "http://www.wknews.net/",
+      "source": "위비티",
+      "addedAt": "2026-11-02",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-110883",
+      "category": "문학작품",
+      "title": "제28회 의정부전국문학공모전",
+      "organizer": "한국문인협회 의정부지부",
+      "target": [
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-13",
+      "endDate": "2026-11-13",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 20만원 / 총 상금 1천만원이하",
+      "url": "https://cafe.daum.net/21munin/4vtv/121",
       "source": "위비티",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
