@@ -1044,26 +1044,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "ck-202609140062",
-      "category": "문학작품",
-      "title": "계간지 『수필가』 2026년 겨을호 신인등단 작품 공모",
-      "organizer": "주식회사 수필가",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-09-15",
-      "endDate": "2026-10-15",
-      "genres": [
-        "수필"
-      ],
-      "prize": "상금(총상금 : 120만원 / 1위 : 30만원)",
-      "url": "http://blog.naver.com/soophilgah/224411393351",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "ck-202609040010",
       "category": "문학작품",
       "title": "2026 정선 국가문화유산 전국 디카시 공모전",
@@ -1082,29 +1062,6 @@
       ],
       "prize": "상금+상품(총상금 : 900만원 / 1위 : 300만원 / 상장 )",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609040010",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "ck-202609040009",
-      "category": "문학작품",
-      "title": "계간 생명과문학 2026년 신인상 작품공모",
-      "organizer": "계간 생명과문학",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-09-04",
-      "endDate": "2026-10-15",
-      "genres": [
-        "시",
-        "수필",
-        "소설",
-        "동화"
-      ],
-      "prize": "없음",
-      "url": "http://blog.naver.com/lifepen2021",
       "source": "공모전코리아",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
@@ -1151,28 +1108,6 @@
       ],
       "prize": "상금(총상금 : 1,500만원 / 1위 : 1,000만원)",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609070053",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "ck-202609010008",
-      "category": "문학작품",
-      "title": "제3회 윤동주 서시 문예공모전",
-      "organizer": "윤동주연구소, 계간 서시",
-      "target": [
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-08-20",
-      "endDate": "2026-10-15",
-      "genres": [
-        "수필"
-      ],
-      "prize": "상금+상품(총상금 : 0만원 / 1위 : 100만원 / 상장 )",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609010008",
       "source": "공모전코리아",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
@@ -1241,27 +1176,6 @@
       ],
       "prize": "기간 내 조회수 20,000회 달성시 300$ 지급",
       "url": "http://www.goodnovel.com/contests/the-series/375",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "ck-202608270042",
-      "category": "문학작품",
-      "title": "2026 스토리랩북스 에세이 공모전",
-      "organizer": "스토리랩북스",
-      "target": [
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-09-16",
-      "endDate": "2026-10-15",
-      "genres": [
-        "수필"
-      ],
-      "prize": "초판 선인세 30만원 지급, 출판 계약",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202608270042",
       "source": "공모전코리아",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
@@ -2310,27 +2224,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "wv-111332",
-      "category": "문학작품",
-      "title": "제4회 만추문예",
-      "organizer": "매일경제신문, 교보문고",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-09-28",
-      "endDate": "2026-10-15",
-      "genres": [
-        "시",
-        "소설"
-      ],
-      "prize": "1등 500만원 / 총 상금 1천만원이하",
-      "url": "https://www.mk.co.kr/news/notice/12145567",
-      "source": "위비티",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "wv-110956",
       "category": "문학작품",
       "title": "제25회 원광김용문학상",
@@ -2519,46 +2412,6 @@
       ],
       "prize": "1등 1,000만원 / 총 상금 3천만원~1천만원",
       "url": "https://cafe.daum.net/koyoli",
-      "source": "위비티",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "wv-110216",
-      "category": "문학작품",
-      "title": "제 25회 안산전국여성백일장",
-      "organizer": "안산여성문학회",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-15",
-      "genres": [
-        "원문 참고"
-      ],
-      "prize": "1등 100만원 / 총 상금 1천만원이하",
-      "url": "https://cafe.daum.net/ansanwl",
-      "source": "위비티",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "wv-109909",
-      "category": "문학작품",
-      "title": "계간 제3의문학은다문학상 공모",
-      "organizer": "『제3의문학』",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-07-01",
-      "endDate": "2026-10-15",
-      "genres": [
-        "시"
-      ],
-      "prize": "1등 200만원 / 총 상금 1천만원이하",
-      "url": "https://blog.naver.com/3munhak/224332701870",
       "source": "위비티",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
