@@ -90,26 +90,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "ck-202607070062",
-      "category": "독후감",
-      "title": "2026년 충청북도지 독후감 공모전",
-      "organizer": "충청북도",
-      "target": [
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "충북",
-      "startDate": "2026-07-06",
-      "endDate": "2026-10-16",
-      "bookRequirement": "지정도서",
-      "prize": "상금+상품(총상금 : 310만원 / 1위 : 50만원 / 상장 )",
-      "url": "http://archive.chungbuk.re.kr/bbs/notice/view.do?nttId=B000000004523Ye3pH5x&mno=sub04_05",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-01",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "wv-110042",
       "category": "독후감",
       "title": "제2회 김형석 교수와 함께하는 독후감 경진대회",
@@ -1021,29 +1001,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "ck-202609070097",
-      "category": "문학작품",
-      "title": "제3회 한국작가문학대상 공모전",
-      "organizer": "한국작가협회",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-09-14",
-      "endDate": "2026-10-16",
-      "genres": [
-        "시",
-        "수필",
-        "소설",
-        "동화"
-      ],
-      "prize": "상금+상품(총상금 : 520만원 / 1위 : 50만원 / 상장 )",
-      "url": "http://www.eanews.kr/news/999011",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "ck-202609040010",
       "category": "문학작품",
       "title": "2026 정선 국가문화유산 전국 디카시 공모전",
@@ -1084,30 +1041,6 @@
       ],
       "prize": "상금(총상금 : 2,800만원 / 1위 : 1,000만원)",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609100006",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "ck-202609070053",
-      "category": "문학작품",
-      "title": "제2회 아리랑 신인문학상",
-      "organizer": "정선군, 정선아리랑문화재단, 강원도민일보",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "강원",
-      "startDate": "2026-09-07",
-      "endDate": "2026-10-16",
-      "genres": [
-        "시",
-        "소설"
-      ],
-      "prize": "상금(총상금 : 1,500만원 / 1위 : 1,000만원)",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609070053",
       "source": "공모전코리아",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
@@ -1338,29 +1271,6 @@
       "source": "위비티",
       "addedAt": "2026-11-14",
       "updatedAt": "2026-11-14"
-    },
-    {
-      "id": "wv-112216",
-      "category": "문학작품",
-      "title": "웅진식품 50주년 기념 문학공모전",
-      "organizer": "웅진식품",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-10-29",
-      "endDate": "2026-11-15",
-      "genres": [
-        "시"
-      ],
-      "prize": "1등 50만원 / 총 상금 1천만원이하",
-      "url": "https://www.instagram.com/p/DfD3tsAgU4h/",
-      "source": "위비티",
-      "addedAt": "2026-11-11",
-      "updatedAt": "2026-11-11"
     },
     {
       "id": "wv-112212",
@@ -2095,6 +2005,29 @@
       "updatedAt": "2026-11-12"
     },
     {
+      "id": "wv-112216",
+      "category": "문학작품",
+      "title": "웅진식품 50주년 기념 문학공모전",
+      "organizer": "웅진식품",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-15",
+      "genres": [
+        "시"
+      ],
+      "prize": "1등 50만원 / 총 상금 1천만원이하",
+      "url": "https://www.instagram.com/p/DfD3tsAgU4h/",
+      "source": "위비티",
+      "addedAt": "2026-11-11",
+      "updatedAt": "2026-11-11"
+    },
+    {
       "id": "wv-112059",
       "category": "문학작품",
       "title": "2026 강원일보 시니어문학상",
@@ -2219,26 +2152,6 @@
       ],
       "prize": "1등 300만원 / 총 상금 1천만원이하",
       "url": "https://cafe.daum.net/pohangliterature/F4C8/56",
-      "source": "위비티",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "wv-110956",
-      "category": "문학작품",
-      "title": "제25회 원광김용문학상",
-      "organizer": "원광대학교 신문방송사",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-08-31",
-      "endDate": "2026-10-16",
-      "genres": [
-        "원문 참고"
-      ],
-      "prize": "1등 100만원 / 총 상금 1천만원이하",
-      "url": "http://www.wknews.net/",
       "source": "위비티",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
@@ -2392,26 +2305,6 @@
       ],
       "prize": "1등 200만원 / 총 상금 1천만원이하",
       "url": "https://cafe.daum.net/jinjunamgangmundan/bD2t/6",
-      "source": "위비티",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "wv-110413",
-      "category": "문학작품",
-      "title": "2026년 영등포문학상 작품공모",
-      "organizer": "영등포구",
-      "target": [
-        "일반"
-      ],
-      "region": "서울",
-      "startDate": "2026-08-26",
-      "endDate": "2026-10-16",
-      "genres": [
-        "원문 참고"
-      ],
-      "prize": "1등 1,000만원 / 총 상금 3천만원~1천만원",
-      "url": "https://cafe.daum.net/koyoli",
       "source": "위비티",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
