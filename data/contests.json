@@ -133,6 +133,48 @@
       "updatedAt": "2026-11-02"
     },
     {
+      "id": "ck-202611070003",
+      "category": "문학작품",
+      "title": "제1회 Daum AI 숏드라마 시나리오 공모전",
+      "organizer": "다음",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-26",
+      "genres": [
+        "희곡·시나리오"
+      ],
+      "prize": "상금(총상금 : 2,000만원 / 1위 : 100만원)",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202611070003",
+      "source": "공모전코리아",
+      "addedAt": "2026-11-17",
+      "updatedAt": "2026-11-17"
+    },
+    {
+      "id": "ck-202611120026",
+      "category": "문학작품",
+      "title": "2026 부산 해양문학 공모전 - 청소년부 이벤트 「해양 톡톡 짧은 글쓰기」",
+      "organizer": "한국해양진흥공사, 부산일보/-",
+      "target": [
+        "초등",
+        "중등",
+        "고등"
+      ],
+      "region": "부산",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-17",
+      "genres": [
+        "시"
+      ],
+      "prize": "상금(총상금 : 200만원 / 1위 : 1만원)",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202611120026",
+      "source": "공모전코리아",
+      "addedAt": "2026-11-17",
+      "updatedAt": "2026-11-17"
+    },
+    {
       "id": "ck-202611100062",
       "category": "문학작품",
       "title": "제3회 초단편 웹소설 챌린지 퇴근길 나도작가",
@@ -1226,6 +1268,51 @@
       "updatedAt": "2026-11-04"
     },
     {
+      "id": "wv-112305",
+      "category": "문학작품",
+      "title": "2027 한라일보 신춘문예 공모",
+      "organizer": "한라일보",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-12",
+      "endDate": "2026-12-11",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 300만원 / 총 상금 1천만원이하",
+      "url": "https://www.ihalla.com/read.php3?aid=1794470810792739012",
+      "source": "위비티",
+      "addedAt": "2026-11-17",
+      "updatedAt": "2026-11-17"
+    },
+    {
+      "id": "wv-112300",
+      "category": "문학작품",
+      "title": "제5회 진주남강청소년문학상 현상 공모",
+      "organizer": "진주남강문학회",
+      "target": [
+        "초등",
+        "중등",
+        "고등"
+      ],
+      "region": "경남",
+      "startDate": "2026-12-01",
+      "endDate": "2027-01-30",
+      "genres": [
+        "시",
+        "수필",
+        "소설",
+        "동화"
+      ],
+      "prize": "1등 50만원 / 총 상금 1천만원이하",
+      "url": "https://cafe.naver.com/jinjunamgangmundan/86",
+      "source": "위비티",
+      "addedAt": "2026-11-17",
+      "updatedAt": "2026-11-17"
+    },
+    {
       "id": "wv-112286",
       "category": "문학작품",
       "title": "2027 광주일보 신춘문예",
@@ -1271,26 +1358,6 @@
       "source": "위비티",
       "addedAt": "2026-11-14",
       "updatedAt": "2026-11-14"
-    },
-    {
-      "id": "wv-112212",
-      "category": "문학작품",
-      "title": "제1회 Daum AI 숏드라마 시나리오 공모전 (내용 수정)",
-      "organizer": "다음",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-26",
-      "genres": [
-        "희곡·시나리오"
-      ],
-      "prize": "총 상금 3천만원~1천만원",
-      "url": "https://forms.gle/eKBLMBZSr8Cj6xY49",
-      "source": "위비티",
-      "addedAt": "2026-11-07",
-      "updatedAt": "2026-11-12"
     },
     {
       "id": "wv-112182",
@@ -1531,32 +1598,6 @@
       "source": "위비티",
       "addedAt": "2026-11-04",
       "updatedAt": "2026-11-04"
-    },
-    {
-      "id": "wv-112052",
-      "category": "문학작품",
-      "title": "2027 한국일보 신춘문예 공모",
-      "organizer": "한국일보",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-11-02",
-      "endDate": "2026-12-02",
-      "genres": [
-        "시",
-        "소설",
-        "동화",
-        "희곡·시나리오"
-      ],
-      "prize": "1등 500만원 / 총 상금 3천만원~1천만원",
-      "url": "https://www.hankookilbo.com/news/article/A2026103019130005068",
-      "source": "위비티",
-      "addedAt": "2026-11-10",
-      "updatedAt": "2026-11-10"
     },
     {
       "id": "wv-112051",
