@@ -1268,6 +1268,26 @@
       "updatedAt": "2026-11-04"
     },
     {
+      "id": "wv-112414",
+      "category": "문학작품",
+      "title": "제5회 위즈덤하우스 어린이청소년 판타지문학상 공모",
+      "organizer": "위즈덤하우스",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-04-21",
+      "endDate": "2026-12-20",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 2,000만원 / 총 상금 5천만원~3천만원",
+      "url": "https://www.wisdomhouse.co.kr/contest/info/8",
+      "source": "위비티",
+      "addedAt": "2026-11-18",
+      "updatedAt": "2026-11-18"
+    },
+    {
       "id": "wv-112305",
       "category": "문학작품",
       "title": "2027 한라일보 신춘문예 공모",
@@ -2237,29 +2257,6 @@
       ],
       "prize": "총 상금 다양한 혜택",
       "url": "http://n-ries.com/sub0103.php?ptype=view&idx=5449&page=&code=sub0103",
-      "source": "위비티",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "wv-110649",
-      "category": "문학작품",
-      "title": "[제580돌 한글날 기념] 삼행시 공모전",
-      "organizer": "문화체육관광부 / 울산대학교 국어문화원",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "울산",
-      "startDate": "2026-09-01",
-      "endDate": "2026-10-18",
-      "genres": [
-        "시"
-      ],
-      "prize": "1등 12만원 / 총 상금 1천만원이하",
-      "url": "https://uoukorean.ulsan.ac.kr/uoukorean",
       "source": "위비티",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
