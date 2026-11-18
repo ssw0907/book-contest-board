@@ -133,6 +133,27 @@
       "updatedAt": "2026-11-02"
     },
     {
+      "id": "ck-202611180001",
+      "category": "문학작품",
+      "title": "제5회 위즈덤하우스 어린이청소년 판타지문학상 공모",
+      "organizer": "위즈덤하우스",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-04-30",
+      "endDate": "2026-12-20",
+      "genres": [
+        "소설",
+        "동화"
+      ],
+      "prize": "상금(총상금 : 5,000만원 / 1위 : 2,000만원)",
+      "url": "http://www.wisdomhouse.co.kr/contest/info/8",
+      "source": "공모전코리아",
+      "addedAt": "2026-11-19",
+      "updatedAt": "2026-11-19"
+    },
+    {
       "id": "ck-202611070003",
       "category": "문학작품",
       "title": "제1회 Daum AI 숏드라마 시나리오 공모전",
@@ -880,28 +901,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "ck-202609190001",
-      "category": "문학작품",
-      "title": "제3회 피천득 전국 중·고·대학, 일반부 백일장",
-      "organizer": "금아피천득선생기념사업회",
-      "target": [
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-09-20",
-      "endDate": "2026-10-19",
-      "genres": [
-        "수필"
-      ],
-      "prize": "상장과 상패, 부상 등 기념품",
-      "url": "http://cafe.daum.net/kum-A/t889/4",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "ck-202609240001",
       "category": "문학작품",
       "title": "2027년 시산맥 신춘문예 공모",
@@ -1266,26 +1265,6 @@
       "source": "위비티",
       "addedAt": "2026-11-04",
       "updatedAt": "2026-11-04"
-    },
-    {
-      "id": "wv-112414",
-      "category": "문학작품",
-      "title": "제5회 위즈덤하우스 어린이청소년 판타지문학상 공모",
-      "organizer": "위즈덤하우스",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-04-21",
-      "endDate": "2026-12-20",
-      "genres": [
-        "원문 참고"
-      ],
-      "prize": "1등 2,000만원 / 총 상금 5천만원~3천만원",
-      "url": "https://www.wisdomhouse.co.kr/contest/info/8",
-      "source": "위비티",
-      "addedAt": "2026-11-18",
-      "updatedAt": "2026-11-18"
     },
     {
       "id": "wv-112305",
@@ -1787,28 +1766,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "wv-111739",
-      "category": "문학작품",
-      "title": "제1회 꿈꾸미닷컴 꿈 수필 공모전",
-      "organizer": "꿈꾸미닷컴",
-      "target": [
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-10-18",
-      "endDate": "2026-11-18",
-      "genres": [
-        "수필"
-      ],
-      "prize": "총 상금 1천만원이하",
-      "url": "https://ggumggumi.com/contest",
-      "source": "위비티",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "wv-111618",
       "category": "문학작품",
       "title": "2027 불교신문 신춘문예 공모",
@@ -2148,6 +2105,28 @@
       ],
       "prize": "1등 500만원 / 총 상금 1천만원이하",
       "url": "https://www.kit.ac.kr/life/notice/campus?id=170371&command=read",
+      "source": "위비티",
+      "addedAt": "2026-11-02",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111739",
+      "category": "문학작품",
+      "title": "제1회 꿈꾸미닷컴 꿈 수필 공모전",
+      "organizer": "꿈꾸미닷컴",
+      "target": [
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-18",
+      "endDate": "2026-11-18",
+      "genres": [
+        "수필"
+      ],
+      "prize": "총 상금 1천만원이하",
+      "url": "https://ggumggumi.com/contest",
       "source": "위비티",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
