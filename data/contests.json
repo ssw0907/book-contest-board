@@ -133,6 +133,26 @@
       "updatedAt": "2026-11-02"
     },
     {
+      "id": "ck-202611190031",
+      "category": "문학작품",
+      "title": "제5회 전국 고교생 웹소설 공모전",
+      "organizer": "광주대학교",
+      "target": [
+        "고등"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-19",
+      "endDate": "2026-12-04",
+      "genres": [
+        "소설"
+      ],
+      "prize": "100만원 상당의 상품+광주대학교 문예창작과 진학 시 2년 장학금",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202611190031",
+      "source": "공모전코리아",
+      "addedAt": "2026-11-20",
+      "updatedAt": "2026-11-20"
+    },
+    {
       "id": "ck-202611180001",
       "category": "문학작품",
       "title": "제5회 위즈덤하우스 어린이청소년 판타지문학상 공모",
@@ -652,26 +672,6 @@
       "updatedAt": "2026-11-03"
     },
     {
-      "id": "ck-202610010021",
-      "category": "문학작품",
-      "title": "광주대학교 제5회 전국 고교생 웹소설 공모전",
-      "organizer": "광주대학교 문예창작과",
-      "target": [
-        "고등"
-      ],
-      "region": "전국",
-      "startDate": "2026-10-19",
-      "endDate": "2026-12-04",
-      "genres": [
-        "소설"
-      ],
-      "prize": "상장, 상품 및 장학금",
-      "url": "http://www.gwangju.ac.kr/bbs/?b_id=gwangju_promotion_news&site=gwangju&mn=376&type=view&bs_idx=6410",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "ck-202610080009",
       "category": "문학작품",
       "title": "제28회 문학축제-'한양의시선'(구 시 이어짓기대회)",
@@ -919,29 +919,6 @@
       ],
       "prize": "상금(총상금 : 300만원 / 1위 : 300만원)",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609240001",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "ck-202609160035",
-      "category": "문학작품",
-      "title": "흥해디카시 공모전",
-      "organizer": "포항디카시협회",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "경북",
-      "startDate": "2026-09-20",
-      "endDate": "2026-10-20",
-      "genres": [
-        "시"
-      ],
-      "prize": "상금+상품(총상금 : 100만원 / 1위 : 50만원 / 상장 )",
-      "url": "http://www.dkilbo.com/news/articleView.html?idxno=554523",
       "source": "공모전코리아",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
@@ -1265,6 +1242,27 @@
       "source": "위비티",
       "addedAt": "2026-11-04",
       "updatedAt": "2026-11-04"
+    },
+    {
+      "id": "wv-112442",
+      "category": "문학작품",
+      "title": "2026년 제19회 시민 시 낭송 대회",
+      "organizer": "자연을 사랑하는 文學의 집·서울",
+      "target": [
+        "중등",
+        "고등"
+      ],
+      "region": "서울",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-25",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 100만원 / 총 상금 1천만원이하",
+      "url": "http://www.imhs.co.kr/customer/notice_read.html?seq=464",
+      "source": "위비티",
+      "addedAt": "2026-11-20",
+      "updatedAt": "2026-11-20"
     },
     {
       "id": "wv-112305",
