@@ -605,28 +605,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "ck-202610130068",
-      "category": "문학작품",
-      "title": "2026 나라사랑 글짓기 대회",
-      "organizer": "안동시, (사)호국영웅이일영기념사업회/(사)호국영웅이일영기념사업회",
-      "target": [
-        "초등",
-        "중등",
-        "고등"
-      ],
-      "region": "경북",
-      "startDate": "2026-10-07",
-      "endDate": "2026-10-21",
-      "genres": [
-        "시"
-      ],
-      "prize": "상금(총상금 : 122만원 / 1위 : 30만원)",
-      "url": "http://blog.naver.com/dodamds",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "ck-202610060019",
       "category": "문학작품",
       "title": "제24회 포항대학교 74주년 기념 평보백일장",
@@ -1357,27 +1335,6 @@
       "updatedAt": "2026-11-14"
     },
     {
-      "id": "wv-112182",
-      "category": "문학작품",
-      "title": "제25회 전국여성환경백일장",
-      "organizer": "인제문화원",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-11-03",
-      "endDate": "2026-11-20",
-      "genres": [
-        "시",
-        "수필"
-      ],
-      "prize": "1등 50만원 / 총 상금 1천만원이하",
-      "url": "http://injeculture.org/bbs/board.php?bo_table=sub6_1&wr_id=171",
-      "source": "위비티",
-      "addedAt": "2026-11-10",
-      "updatedAt": "2026-11-10"
-    },
-    {
       "id": "wv-112178",
       "category": "문학작품",
       "title": "2027년 경향신문 신춘문예",
@@ -1909,29 +1866,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "wv-109884",
-      "category": "문학작품",
-      "title": "제15회 제주4·3평화문학상 공모",
-      "organizer": "제주4.3평화재단",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "제주",
-      "startDate": "2026-05-22",
-      "endDate": "2026-11-20",
-      "genres": [
-        "원문 참고"
-      ],
-      "prize": "1등 5,000만원 / 총 상금 5천만원이상",
-      "url": "https://jeju43peace.or.kr/kor/BBSMSTR_000000000001/8079/view.do",
-      "source": "위비티",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "wv-109881",
       "category": "문학작품",
       "title": "2027 창비 청소년 문학상 공모",
@@ -2042,6 +1976,27 @@
       "source": "위비티",
       "addedAt": "2026-11-11",
       "updatedAt": "2026-11-11"
+    },
+    {
+      "id": "wv-112182",
+      "category": "문학작품",
+      "title": "제25회 전국여성환경백일장",
+      "organizer": "인제문화원",
+      "target": [
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-20",
+      "genres": [
+        "시",
+        "수필"
+      ],
+      "prize": "1등 50만원 / 총 상금 1천만원이하",
+      "url": "http://injeculture.org/bbs/board.php?bo_table=sub6_1&wr_id=171",
+      "source": "위비티",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10"
     },
     {
       "id": "wv-112059",
@@ -2284,26 +2239,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "wv-110518",
-      "category": "문학작품",
-      "title": "제37회 전국 성호문학상 공모",
-      "organizer": "한국문인협회 안산지부",
-      "target": [
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-08-31",
-      "endDate": "2026-10-21",
-      "genres": [
-        "원문 참고"
-      ],
-      "prize": "1등 300만원 / 총 상금 1천만원이하",
-      "url": "https://cafe.daum.net/Ansanmunin/3Z4j/365",
-      "source": "위비티",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "wv-110421",
       "category": "문학작품",
       "title": "제5회 통영 동피랑문학상 공모",
@@ -2344,6 +2279,29 @@
       ],
       "prize": "1등 200만원 / 총 상금 1천만원이하",
       "url": "https://namastekorea.net/?page_id=196&mod=document&uid=2163",
+      "source": "위비티",
+      "addedAt": "2026-11-02",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-109884",
+      "category": "문학작품",
+      "title": "제15회 제주4·3평화문학상 공모",
+      "organizer": "제주4.3평화재단",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "제주",
+      "startDate": "2026-05-22",
+      "endDate": "2026-11-20",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 5,000만원 / 총 상금 5천만원이상",
+      "url": "https://jeju43peace.or.kr/kor/BBSMSTR_000000000001/8079/view.do",
       "source": "위비티",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
