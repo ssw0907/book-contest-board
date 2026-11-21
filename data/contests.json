@@ -48,27 +48,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "ck-202609150037",
-      "category": "독후감",
-      "title": "「함께 읽어요!! 2026 경남의 책」전국 독후감 공모전",
-      "organizer": "경남대표도서관",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-09-10",
-      "endDate": "2026-10-22",
-      "bookRequirement": "지정도서",
-      "prize": "상금+상품(총상금 : 360만원 / 1위 : 40만원 / 상장 )",
-      "url": "http://lib.gyeongnam.go.kr/board/view.lib?boardId=BBS_0000001&menuCd=DOM_000000204001000000&startPage=1&dataSid=8087",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-01",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "ck-202609020019",
       "category": "독후감",
       "title": "2026 한 권의 책 전국 독후감 공모전",
@@ -86,25 +65,6 @@
       "prize": "상금+상품(총상금 : 290만원 / 1위 : 50만원 / 상장 )",
       "url": "http://lib.jeongeup.go.kr/board/board.do?PID=0501&action=Read&idx=11216&searchType=all&searchText=&page=1",
       "source": "공모전코리아",
-      "addedAt": "2026-11-01",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "wv-110042",
-      "category": "독후감",
-      "title": "제2회 김형석 교수와 함께하는 독후감 경진대회",
-      "organizer": "양구군 / 강원도민일보",
-      "target": [
-        "초등",
-        "중등"
-      ],
-      "region": "강원",
-      "startDate": "2026-08-20",
-      "endDate": "2026-10-22",
-      "bookRequirement": "자유",
-      "prize": "1등 100만원 / 총 상금 1천만원이하",
-      "url": "http://www.kado.net/news/articleView.html?idxno=2065792",
-      "source": "위비티",
       "addedAt": "2026-11-01",
       "updatedAt": "2026-11-02"
     },
@@ -2103,28 +2063,6 @@
       ],
       "prize": "총 상금 다양한 혜택",
       "url": "https://www.haman.go.kr/06798/06818.web?gcode=6219&idx=17218482&amode=view&",
-      "source": "위비티",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "wv-111501",
-      "category": "문학작품",
-      "title": "제15회 구상한강백일장",
-      "organizer": "영등포구·(사)구상선생기념사업회",
-      "target": [
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "서울",
-      "startDate": "2026-10-12",
-      "endDate": "2026-10-22",
-      "genres": [
-        "원문 참고"
-      ],
-      "prize": "1등 150만원 / 총 상금 1천만원이하",
-      "url": "https://cafe.naver.com/kusang100iljang",
       "source": "위비티",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
