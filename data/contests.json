@@ -156,7 +156,7 @@
     {
       "id": "ck-202611120026",
       "category": "문학작품",
-      "title": "2026 부산 해양문학 공모전 - 청소년부 이벤트 「해양 톡톡 짧은 글쓰기」",
+      "title": "[기간연장] 2026 부산 해양문학 공모전 - 청소년부 이벤트 「해양 톡톡 짧은 글쓰기」",
       "organizer": "한국해양진흥공사, 부산일보/-",
       "target": [
         "초등",
@@ -173,7 +173,7 @@
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202611120026",
       "source": "공모전코리아",
       "addedAt": "2026-11-17",
-      "updatedAt": "2026-11-17"
+      "updatedAt": "2026-11-26"
     },
     {
       "id": "ck-202611100062",
@@ -1002,26 +1002,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "ck-202608120011",
-      "category": "문학작품",
-      "title": "2026년 젊은 시조 작가상 공모",
-      "organizer": "전북시조시인협회",
-      "target": [
-        "일반"
-      ],
-      "region": "전북",
-      "startDate": "2026-08-10",
-      "endDate": "2026-10-30",
-      "genres": [
-        "시"
-      ],
-      "prize": "상금+상품(총상금 : 140만원 / 1위 : 50만원 / 상장 )",
-      "url": "http://cafe.daum.net/jeonbuksijo2022/bkYu/173",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "wv-112349",
       "category": "문학작품",
       "title": "농민신문 제31회 신춘문예 작품 공모",
@@ -1069,25 +1049,50 @@
       "updatedAt": "2026-11-04"
     },
     {
-      "id": "wv-112442",
+      "id": "wv-112550",
       "category": "문학작품",
-      "title": "2026년 제19회 시민 시 낭송 대회",
-      "organizer": "자연을 사랑하는 文學의 집·서울",
+      "title": "2027 K-디카시저널 디카시 신춘문예",
+      "organizer": "K-디카시저널",
       "target": [
+        "초등",
         "중등",
-        "고등"
+        "고등",
+        "일반"
       ],
-      "region": "서울",
-      "startDate": "2026-11-10",
-      "endDate": "2026-11-25",
+      "region": "전국",
+      "startDate": "2026-12-01",
+      "endDate": "2026-12-30",
       "genres": [
-        "원문 참고"
+        "시"
       ],
-      "prize": "1등 100만원 / 총 상금 1천만원이하",
-      "url": "http://www.imhs.co.kr/customer/notice_read.html?seq=464",
+      "prize": "1등 300만원 / 총 상금 1천만원이하",
+      "url": "https://cafe.daum.net/dicapoemjournal",
       "source": "위비티",
-      "addedAt": "2026-11-20",
-      "updatedAt": "2026-11-20"
+      "addedAt": "2026-11-26",
+      "updatedAt": "2026-11-26"
+    },
+    {
+      "id": "wv-112504",
+      "category": "문학작품",
+      "title": "2027년 사단법인 한국극작가협회 신춘문예 공모",
+      "organizer": "한국극작가협회",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-09",
+      "endDate": "2026-12-11",
+      "genres": [
+        "희곡·시나리오"
+      ],
+      "prize": "1등 200만원 / 총 상금 1천만원이하",
+      "url": "http://www.playwright.or.kr/xe/board_zpln12/23940#0",
+      "source": "위비티",
+      "addedAt": "2026-11-26",
+      "updatedAt": "2026-11-26"
     },
     {
       "id": "wv-112305",
@@ -1780,6 +1785,27 @@
       "source": "위비티",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-112442",
+      "category": "문학작품",
+      "title": "2026년 제19회 시민 시 낭송 대회",
+      "organizer": "자연을 사랑하는 文學의 집·서울",
+      "target": [
+        "중등",
+        "고등"
+      ],
+      "region": "서울",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-25",
+      "genres": [
+        "원문 참고"
+      ],
+      "prize": "1등 100만원 / 총 상금 1천만원이하",
+      "url": "http://www.imhs.co.kr/customer/notice_read.html?seq=464",
+      "source": "위비티",
+      "addedAt": "2026-11-20",
+      "updatedAt": "2026-11-20"
     },
     {
       "id": "wv-112228",
