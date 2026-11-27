@@ -844,29 +844,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "ck-202609150060",
-      "category": "문학작품",
-      "title": "제29회 한뫼 이윤재선생 추모 전국 한글사랑 글짓기·그리기 공모전",
-      "organizer": "김해시, 경남동부보훈지청/김해문화원",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-09-14",
-      "endDate": "2026-10-28",
-      "genres": [
-        "시"
-      ],
-      "prize": "상금+상품(총상금 : 497만원 / 1위 : 50만원 / 상장)",
-      "url": "http://www.khcc.or.kr/",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "ck-202609040010",
       "category": "문학작품",
       "title": "2026 정선 국가문화유산 전국 디카시 공모전",
@@ -885,28 +862,6 @@
       ],
       "prize": "상금+상품(총상금 : 900만원 / 1위 : 300만원 / 상장 )",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609040010",
-      "source": "공모전코리아",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "ck-202609100006",
-      "category": "문학작품",
-      "title": "2026 부산 해양문학 공모전",
-      "organizer": "한국해양진흥공사, 부산일보",
-      "target": [
-        "일반"
-      ],
-      "region": "부산",
-      "startDate": "2026-09-09",
-      "endDate": "2026-10-28",
-      "genres": [
-        "시",
-        "수필",
-        "소설"
-      ],
-      "prize": "상금(총상금 : 2,800만원 / 1위 : 1,000만원)",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030110001&str_no=202609100006",
       "source": "공모전코리아",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
@@ -1001,30 +956,6 @@
       "source": "공모전코리아",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
-    },
-    {
-      "id": "wv-112349",
-      "category": "문학작품",
-      "title": "농민신문 제31회 신춘문예 작품 공모",
-      "organizer": "농민신문",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-11-04",
-      "endDate": "2026-11-27",
-      "genres": [
-        "시",
-        "소설"
-      ],
-      "prize": "1등 700만원 / 총 상금 3천만원~1천만원",
-      "url": "https://www.nongmin.com/article/20261102500603",
-      "source": "위비티",
-      "addedAt": "2026-11-14",
-      "updatedAt": "2026-11-14"
     },
     {
       "id": "wv-109996",
@@ -1230,32 +1161,6 @@
       ],
       "prize": "1등 700만원 / 총 상금 3천만원~1천만원",
       "url": "https://www.yeongnam.com/web/view.php?key=20261106021217549",
-      "source": "위비티",
-      "addedAt": "2026-11-10",
-      "updatedAt": "2026-11-10"
-    },
-    {
-      "id": "wv-112175",
-      "category": "문학작품",
-      "title": "2027 동아신춘문예",
-      "organizer": "동아일보사",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-11-06",
-      "endDate": "2026-11-27",
-      "genres": [
-        "시",
-        "소설",
-        "동화",
-        "희곡·시나리오"
-      ],
-      "prize": "1등 3,000만원 / 총 상금 5천만원이상",
-      "url": "https://sinchoon.donga.com/",
       "source": "위비티",
       "addedAt": "2026-11-10",
       "updatedAt": "2026-11-10"
@@ -1574,31 +1479,6 @@
       "updatedAt": "2026-11-02"
     },
     {
-      "id": "wv-111618",
-      "category": "문학작품",
-      "title": "2027 불교신문 신춘문예 공모",
-      "organizer": "불교신문",
-      "target": [
-        "초등",
-        "중등",
-        "고등",
-        "일반"
-      ],
-      "region": "전국",
-      "startDate": "2026-10-30",
-      "endDate": "2026-11-27",
-      "genres": [
-        "시",
-        "소설",
-        "동화"
-      ],
-      "prize": "1등 500만원 / 총 상금 3천만원~1천만원",
-      "url": "http://www.ibulgyo.com/news/articleView.html?idxno=443178",
-      "source": "위비티",
-      "addedAt": "2026-11-02",
-      "updatedAt": "2026-11-02"
-    },
-    {
       "id": "wv-111381",
       "category": "문학작품",
       "title": "2027년 경남도민신문 신춘문예 공모",
@@ -1809,6 +1689,30 @@
       "updatedAt": "2026-11-20"
     },
     {
+      "id": "wv-112349",
+      "category": "문학작품",
+      "title": "농민신문 제31회 신춘문예 작품 공모",
+      "organizer": "농민신문",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-27",
+      "genres": [
+        "시",
+        "소설"
+      ],
+      "prize": "1등 700만원 / 총 상금 3천만원~1천만원",
+      "url": "https://www.nongmin.com/article/20261102500603",
+      "source": "위비티",
+      "addedAt": "2026-11-14",
+      "updatedAt": "2026-11-14"
+    },
+    {
       "id": "wv-112228",
       "category": "문학작품",
       "title": "2026 전북학생 문학상 공모전",
@@ -1868,6 +1772,32 @@
       ],
       "prize": "1등 50만원 / 총 상금 1천만원이하",
       "url": "http://injeculture.org/bbs/board.php?bo_table=sub6_1&wr_id=171",
+      "source": "위비티",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "wv-112175",
+      "category": "문학작품",
+      "title": "2027 동아신춘문예",
+      "organizer": "동아일보사",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-27",
+      "genres": [
+        "시",
+        "소설",
+        "동화",
+        "희곡·시나리오"
+      ],
+      "prize": "1등 3,000만원 / 총 상금 5천만원이상",
+      "url": "https://sinchoon.donga.com/",
       "source": "위비티",
       "addedAt": "2026-11-10",
       "updatedAt": "2026-11-10"
@@ -1977,6 +1907,31 @@
       ],
       "prize": "총 상금 다양한 혜택",
       "url": "https://www.haman.go.kr/06798/06818.web?gcode=6219&idx=17218482&amode=view&",
+      "source": "위비티",
+      "addedAt": "2026-11-02",
+      "updatedAt": "2026-11-02"
+    },
+    {
+      "id": "wv-111618",
+      "category": "문학작품",
+      "title": "2027 불교신문 신춘문예 공모",
+      "organizer": "불교신문",
+      "target": [
+        "초등",
+        "중등",
+        "고등",
+        "일반"
+      ],
+      "region": "전국",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-27",
+      "genres": [
+        "시",
+        "소설",
+        "동화"
+      ],
+      "prize": "1등 500만원 / 총 상금 3천만원~1천만원",
+      "url": "http://www.ibulgyo.com/news/articleView.html?idxno=443178",
       "source": "위비티",
       "addedAt": "2026-11-02",
       "updatedAt": "2026-11-02"
